@@ -12,4 +12,4 @@
 |TL_09   |Simple Interest   |P=1000,T=2,R10%   |C=200   |   |
 |TL_10   |Power   |A=2,B=1   |C=2   |   |
 |TL_11   |Average |A=2,B=6  |C=4 |      |
-|TL_11   |Average   |A=2,B=6   |C=4   |   |
+|TL_12   |logarthmic  |A=2,B=2   |C=1   |   |

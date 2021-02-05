@@ -1,3 +1,4 @@
+#include <exponential.h>
 #include <math.h>
 #include <stdio.h>
 
@@ -28,11 +29,14 @@ int main()
     scanf("%d", &n);
     if (n == 1){
         printf("Solution = %.02lf", result);
-        return 0;
+        return "end";
+    }
+
+    else{
+        return I;// Integreators place to be added
+
     }
     
-
-
 }
 
 

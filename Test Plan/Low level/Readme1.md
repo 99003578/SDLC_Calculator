@@ -9,3 +9,4 @@
 |TL_06   |Trignometric (Tan x)   | X=45°  |C=1   |   |
 |TL_07   |Conversion (dec to bin)   |A=2  |C=0010  |   |
 |TL_08   |logarthmic  |A=2,B=2   |C=1   |   |
+|TL_09   |Power   |A=2,B=1   |C=2   |   |

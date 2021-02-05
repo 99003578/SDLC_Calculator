@@ -6,7 +6,7 @@
 
          Exponential Behavioral Diagram
          
- ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/Average%20_Behavioral.jpg)
+ ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/Average_behavioral.png)
 
          Average Behavioral Diagram      
  

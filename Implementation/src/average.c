@@ -1,8 +1,4 @@
 #include<average_operations.h>
-<<<<<<< Updated upstream
-int average1(int x)
-=======
->>>>>>> Stashed changes
 int average()
 {
     int i,m,n;
@@ -35,33 +31,12 @@ int average()
 
     return c;
     }
-<<<<<<< Updated upstream
-    back:printf("If you want to display result press 1 or else to continue further calculation press 2\n");
-    scanf("%d",&m);
-    if(m==1)
-    {
-    printf("Average is %.3f\n",c);
-    return 0;
-    }
-    else if(m==2)
-    {
-    printf("GO TO MAIN");
-    return 0;
-    }
-    else
-    return 0;  
-}
-    int average1()
-    {
-    printf("Enter the Number of Elemnts(Upto 100)\n\n");
-=======
    
 }
  int average1(int x){
      int i,m,n;
     float sum=0,a[100],c;
     back1:printf("Enter the Number of Elemnts(Upto 100)\n\n");
->>>>>>> Stashed changes
     scanf("%d",&n);
       if((n>100)||(n<0)){
     printf("Enter Number of Elements between 1 to 100!!!\n");
@@ -78,11 +53,6 @@ int average()
         sum+=a[i];
     }
     c=sum/(n+1);
-<<<<<<< Updated upstream
-    }
-    goto back2;
-}
-=======
     printf("If you want to display result press 1 or else to continue further calculation press 2\n");
     scanf("%d",&m);
     if(m==1)
@@ -98,4 +68,3 @@ int average()
      
  }
    
->>>>>>> Stashed changes

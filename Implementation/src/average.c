@@ -18,7 +18,7 @@ int main(int x)
     }
     for(i=0;i<n;i++)
     {
-        sum+=a[i];
+    sum+=a[i];
     }
     c=sum/n;
     }

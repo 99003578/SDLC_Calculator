@@ -1,10 +1,10 @@
 #include<logarthmic.h>
 int logN(int num,int base);
-int log(int x=3)
-{
+int log2(int x);
+int log1{
     int num, base;
     int result;
-    if(x==3){
+
         printf("enter the number");
         scanf("%d",&num);
         printf("enter the base");
@@ -12,8 +12,8 @@ int log(int x=3)
         result=logN(num,base);
         printf("%d",result);
         return 0;
-    } 
-else{
+}
+int log2(int x){
     num = x;
     scanf("%d",&base);
     result = logN(num,base);

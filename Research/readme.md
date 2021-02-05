@@ -11,19 +11,19 @@ COST:
 |---|---|---|---|
 |  360$-400$ | 700$-800$  |   20$-30$|  10$-12$ |
 
-PROS AND CONS
 
+1. **Pros and Cons**
 
-![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Research/pros%20and%20cons)
+1. Pros
 
-PROS
-    • More operations possible.
-    • Efficient
-    • User friendly
+- More operations possible.
+- Efficient
+- User friendly
 
-CONS
-    • High cost
-    • Need to have some knowledge for operating calculators.
+1. Cons
+
+- High cost
+- Need to have some knowledge for operating calculators.
     
 SWOT Analysis:
 

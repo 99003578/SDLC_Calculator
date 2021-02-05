@@ -1,5 +1,4 @@
 #include<stdio.h>
-int x=3;
 int main(int x)
 {
     int i,m,n;
@@ -18,7 +17,7 @@ int main(int x)
     }
     for(i=0;i<n;i++)
     {
-        sum+=a[i];
+    sum+=a[i];
     }
     c=sum/n;
     }

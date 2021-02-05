@@ -27,5 +27,7 @@
 | TL_10   | Logarthmic                    | num=8,base=2            | 3             |                 |
 |         |                               | num=-8,base=2           | error         |                 |
 |         |                               | num=8,base=-2           | error         |                 |
-| TL_10   | Logarthmic                    | num=8,base=2            | 3             |                 |
-
+| TL_11   | Power                         | num=3,base=2            | 8             |                 |
+|         |                               | num=0;base=8            | 1             |                 |
+| TL_12   | Average                       | N=3,A=2,B=4,C=3         | 3             |                 |
+|         |                               | N=20                    |Error          |                 |

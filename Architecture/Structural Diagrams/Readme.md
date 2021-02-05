@@ -22,3 +22,8 @@
           power structural diagram
           
 ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Structural%20Diagrams/power%20structural%20diagram.png)
+
+          
+          Factorial structural Diagram
+  
+  ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Structural%20Diagrams/thumbnail_Factorial%20flow%20chart.jpg)

@@ -15,5 +15,11 @@
         Simple Intrest diagram
         
 ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/Trignometry%20Behavioural%20diagram.png)
-
+       
        trignometric diagram
+
+
+
+![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/umlfact.png)
+       
+       Factorial diagram

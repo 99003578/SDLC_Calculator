@@ -5,3 +5,4 @@
 |TL_02   |Subtraction of two numbers   |A=5,B=2   |C=3   |   |
 |TL_03   |Multiplication of two numbers   |A=5,B=2   |C=10   |   |
 |TL_04   |Division of two numbers   |A=4,B=2   |C=2   |   |
+|TL_05   |Factorial   |A=3   | C=6  |   |

@@ -11,6 +11,7 @@
 
 int main(){
     int k, j=3;
+    int r;
     while (j != 0){
         printf("Please select the number for the select function \n");
         printf("1 - basic operators(Add, Subtract, multiply, division)\n");
@@ -24,7 +25,14 @@ int main(){
     scanf("%d", &k);
         switch(k){
             case 1:
-                
+            r = basic_operations();
+            break;
+            case 2:
+            r = average();
+            break;
+            case 3:
+            r = bin_to_dec)(;)
+
      }
     }
 }

@@ -1,16 +1,18 @@
-#include<average_operations.h>
-int average1(int x)
+#include<stdio.h>
+int average1(int x);
 int average()
 {
     int i,m,n;
     float sum=0,a[100],c;
-    back:printf("Enter the Number of Elemnts(Upto 100)\n\n");
+    do{
+    printf("Enter the Number of Elemnts(Upto 100)\n");
     scanf("%d",&n);
     if((n>100)||(n<0)){
-    printf("Enter Number of elements between 1 to 100!!!\n");
-    goto back;
+    printf("Enter Number of elements between 1 to 100!!! \n");
     }
-    printf("Enter the Numbers\n");
+    continue;
+    }while((n>100)||(n<0));
+    printf("Enter the Numbers \n");
     for(i=0;i<n;i++)
     {
         scanf("%f",&a[i]);
@@ -20,30 +22,31 @@ int average()
     sum+=a[i];
     }
     c=sum/n;
-    }
-    back:printf("If you want to display result press 1 or else to continue further calculation press 2\n");
+    printf("If you want to display result press 1 or else to continue further calculation press 2\n");
     scanf("%d",&m);
     if(m==1)
     {
     printf("Average is %.3f\n",c);
     return 0;
     }
-    else if(m==2)
+    else
     {
     printf("GO TO MAIN");
-    return 0;
     }
-    else
-    return 0;  
+    return 0;
 }
-    int average1()
+    int average1(int x)
     {
+    int n,i;
+    float c,sum=0,a[100];
+    do{
     printf("Enter the Number of Elemnts(Upto 100)\n\n");
     scanf("%d",&n);
-      if((n>100)||(n<0)){
-    printf("Enter Number of Elements between 1 to 100!!!\n");
-    goto back1;
+    if((n>100)||(n<0)){
+    printf("Enter Number of elements between 1 to 100!!!\n");
     }
+    continue;
+    }while((n>100)||(n<0));
     printf("Enter the Numbers\n");
     a[0]=x;
     for(i=0;i<n;i++)
@@ -55,6 +58,5 @@ int average()
         sum+=a[i];
     }
     c=sum/(n+1);
-    }
-    goto back2;
+    printf("%.3f",c);
 }

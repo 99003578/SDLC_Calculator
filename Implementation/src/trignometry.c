@@ -2,9 +2,9 @@
 #include<stdio.h>
 #include<math.h>
 int x=50;
- int trignometry2 (int x);
+
  int trig(int angle);
-int main()
+int trignometry1()
 {
     float angle=0,trignometry;
     printf("enter the number");
@@ -20,23 +20,7 @@ int main()
         return 0;
 
     }
-    int trignometry2 (int x)
-    {
-        float angle;
-        angle = x;
-        trig(angle);
-        printf("enter 1 for continuation else 2");
-        int k;
-        scanf("%d", &k);
-        if(k=1){
-            return 0;
-        }
-        else{
-            printf("trignometry of %f = %f",angle,trignometry);
-            return 0;
-        }
-    }
-}    
+}   
 int trig(int angle)  
 {  
     float degree, radian;  

@@ -28,7 +28,11 @@ int main(){
         switch(k){
             case 1:
             r = basic_operations();
-            break;
+            if(r>0){
+                break;
+            }
+            else{
+                goto : front
             case 2:
             r = average();
             break;
@@ -52,6 +56,9 @@ int main(){
             break;
             case 9:
             r = power();
+            break;
+            case 10:
+            r = trignometry();
             break;
 
      }

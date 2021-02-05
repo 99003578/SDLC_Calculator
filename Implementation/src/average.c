@@ -1,5 +1,5 @@
-#include<stdio.h>
-int main(int x)
+#include<average_operations.h>
+int average(int x)
 {
     int i,m,n;
     float sum=0,a[100],c;

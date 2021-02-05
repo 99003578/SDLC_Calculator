@@ -37,7 +37,13 @@ int main(){
             r = dec_to_bin();
             break;
             case 5:
-            r = exponential_operation();
+            r = exponential();
+            break;
+            case 6:
+            r = factorial();
+            break;
+            case 7:
+            r = interest();
             break;
             
 

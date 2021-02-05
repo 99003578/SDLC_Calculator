@@ -15,9 +15,10 @@ else{
     printf("factorial of %d = %d",n,factorial);
     return 0;
 }
+}
 
-int factorial2(signed int x){
-int n1;
+int factorial1(signed int x){
+int n1, factorial;
     n1 = x;
     factorial=fact(n1);
     printf("enter 1 for continuation else 2");
@@ -27,7 +28,7 @@ if(k=1){
     return factorial;
 }
 else{
-    printf("factorial of %d = %d",n,factorial);
+    printf("factorial of %d = %d",n1 ,factorial);
     return 0;
 }
 

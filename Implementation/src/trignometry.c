@@ -1,3 +1,4 @@
+#include<trignometry.h>
 #include<stdio.h>
 #include<math.h>
 int x=50;

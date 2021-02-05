@@ -55,35 +55,3 @@ SDLC_Calculator/Test Plan/High level/
 |HL_02   |It should have ON, OFF, Storage unit  |
 
 6
-
-​
-
-7
-
-​
-
-8
-
-​
-
-@99003517
-Commit changes
-Commit summary
-Optional extended description
-Commit directly to the main branch.
-Create a new branch for this commit and start a pull request. Learn more about pull requests.
-
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-

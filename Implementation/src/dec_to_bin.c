@@ -4,12 +4,18 @@ int main()
 {
     int a[10], number, i, j,m;
     printf("\n Please Enter the Number You want to Convert  :  ");
-    scanf("%d", &number);
-    
+    scanf("%d",&number);
+    if(number <0)
+    {
+        printf("Invalid input");
+    }
+    else
+    {
     for(i = 0; number > 0; i++)
     {
         a[i] = number % 2;
         number = number / 2;
+    }
     }
     printf("To print result press 1 else press 2 ");
     scanf("%d",&m);

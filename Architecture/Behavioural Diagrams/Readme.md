@@ -1,4 +1,4 @@
-![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/Average_Behavioral.jpg)
+![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/Average%20_Behavioral.jpg)
 
          Average Behavioral Diagram
 
@@ -10,6 +10,8 @@
 
          Exponential Behavioral Diagram
  ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/simple_intrest.png)
+ 
         Simple Intrest diagram
 ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Behavioural%20Diagrams/Trignometry%20behavioural%20diagram.png)
+
        trignometric diagram

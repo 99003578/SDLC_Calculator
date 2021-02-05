@@ -26,3 +26,4 @@
           Factorial structural Diagram
   
   ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Structural%20Diagrams/thumbnail_Factorial%20flow%20chart.jpg)
+  ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Structural%20Diagrams/conversion.png)

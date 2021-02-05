@@ -6,7 +6,7 @@
 
           Exponential Low Level Structural diagram
          
-![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Structural%20Diagrams/Average_structural.jpg)
+![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/Structural%20Diagrams/Average_Structural.png)
 
           Average Structural Diagram
  

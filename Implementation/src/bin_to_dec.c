@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-int main()
+int bin_to_dec()
 {
     int binnum, decnum=0, i=0, rem,m;
     printf("Enter any binary number: ");
@@ -26,9 +26,12 @@ int main()
     if(m==1)
     {
     printf("\nEquivalent Decimal Value = %d", decnum);
+    return 0;
     }
     else{
-        return I;
+        return decnum;
     }
-    return 0;
+    
 }
+
+

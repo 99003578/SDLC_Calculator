@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int main()
+int exponential_operation()
 {
     float basenumber;
     int exponential, n;

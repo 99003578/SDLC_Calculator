@@ -31,7 +31,15 @@ int main(){
             r = average();
             break;
             case 3:
-            r = bin_to_dec)(;)
+            r = bin_to_dec();
+            break;
+            case 4:
+            r = dec_to_bin();
+            break;
+            case 5:
+            r = exponential_operation();
+            break;
+            
 
      }
     }

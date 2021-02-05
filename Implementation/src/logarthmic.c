@@ -1,7 +1,7 @@
 #include<logarthmic.h>
 int logN(int num,int base);
 
-int logarithmic(){
+int logarthmic(){
     int num, base;
     int result;
 

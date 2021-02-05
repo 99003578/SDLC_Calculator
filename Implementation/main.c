@@ -13,6 +13,7 @@ int main(){
     int k, j=3;
     int r;
     int r2;
+    int r3;
    
         printf("Please select the number for the select function \n");
         printf("1 - basic operators(Add, Subtract, multiply, division)\n");
@@ -148,24 +149,28 @@ int main(){
                 goto front;
             }
             case 6:
-            r = factorial();
-           if(r>0){
+            r = factorial1(r);
+           if(r==0){
                 break;
             }
             else{
                 goto front;
             }
             case 7:
-            r = interest();
-            if(r>0){
+            printf("Please enter rate and time of interest respectively");
+            scanf("%f %f", &r2, &r3);
+            r = interest1(r, r2, r3);
+            if(r==0){
                 break;
             }
             else{
                 goto front;
             }
             case 8:
-            r = logarthmic();
-            if(r>0){
+            printf("enter base of log");
+            scanf("%d", &r2);
+            r = logarthmic1(r, r2);
+            if(r==0){
                 break;
             }
             else{

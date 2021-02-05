@@ -7,3 +7,4 @@
 |TL_04   |Division of two numbers   |A=4,B=2   |C=2   |   |
 |TL_05   |Factorial   |A=3   | C=6  |   |
 |TL_06   |Trignometric (Tan x)   | X=45°  |C=1   |   |
+|TL_07   |Conversion (dec to bin)   |A=2  |C=0010  |   |

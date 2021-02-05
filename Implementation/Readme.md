@@ -1,1 +1,1 @@
-This folder consists of Test plan and Test cases
+This folder consists of the code of the calculator app

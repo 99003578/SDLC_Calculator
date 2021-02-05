@@ -10,34 +10,20 @@ COST:
 |  1960s | 1980s  |  2000 | Present  |
 |---|---|---|---|
 |  360$-400$ | 700$-800$  |   20$-30$|  10$-12$ |
-
-
-1. **Pros and Cons**
-
-1. Pros
-
-- More operations possible.
-- Efficient
-- User friendly
-
-1. Cons
-
-- High cost
-- Need to have some knowledge for operating calculators.
-    
+   
 SWOT Analysis:
 
 ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Research/SWOT.png)
 
 1. **Pros and Cons**
 
-1. Pros
+ 1. Pros
 
 - More operations possible.
 - Efficient
 - User friendly
 
-1. Cons
+ 2. Cons
 
 - High cost
 - Need to have some knowledge for operating calculators.

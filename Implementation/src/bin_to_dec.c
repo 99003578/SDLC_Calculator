@@ -1,4 +1,4 @@
-#include<bin_to_dec.h>
+#include<bintodec.h>
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>

@@ -1,5 +1,4 @@
 #include<stdio.h>
-int x=3;
 int main(int x)
 {
     int i,m,n;

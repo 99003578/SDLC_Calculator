@@ -21,7 +21,9 @@ int main(){
         printf("5 - Exponential operation\n");
         printf("6 - Factorial operation\n");
         printf("7 - Simple Interest Operation\n");
-        printf("8 - Trignometric Operations\n");
+        printf("8 - Logarthmic Operation\n");
+        printf("9 - Taking Power of the number");
+        printf("10 - Trignometric functions");
     scanf("%d", &k);
         switch(k){
             case 1:
@@ -45,7 +47,12 @@ int main(){
             case 7:
             r = interest();
             break;
-            
+            case 8:
+            r = logarthmic();
+            break;
+            case 9:
+            r = power();
+            break;
 
      }
     }

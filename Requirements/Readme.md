@@ -14,7 +14,7 @@
 |RL_04   |If the user enters a higher number as input  in Conversion calculation, the calculator displays only 8 bits|
 |RL_05   |If the user enters a improper input in exponential, it displays an error message if the output is infinity   |
 |RL_06   |If the user enters a negative number as input for base in logarithmic functions, the calculator displays a custom error message   |
-|RL_07   |User should enter the input time in years and rate in percentage in Simple interest   |
+|RL_07   |User should enter the input time in years and rate in percentage in Simple interest and no negative numbers   |
 |RL_08   |User should enter base and power correctly   |
 |RL_09   |User should enter all the numbers correctly and number of items that should be Average   |
 |RL_09   |User should enter binary number in 1 and 0's format.

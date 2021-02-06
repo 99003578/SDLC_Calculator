@@ -172,8 +172,8 @@ int basic_operation1(int x, int y){
         case 4:
         back:
         if(l == 0){
-            printf("Denominator cant be zero, please enter again");
-            scanf("%d", &l);
+            
+            return 'Denominator cant be zero, please enter again';
             goto back;
         }
         else{

@@ -1,8 +1,5 @@
 #include <exponential.h>
-#include <math.h>
-#include <stdio.h>
-
-int main()
+int exponential()
 {
     float basenumber;
     int exponential, n;
@@ -45,19 +42,13 @@ int exponential1(float x, int y)
     int exponential = y;
     int n;
     float result = 1;
-    
-    printf("Enter the Base number : ");
-    scanf("%f", &basenumber);
-    
+
     if(basenumber == 0)
     {
         printf("Invalid Operand\n");
         printf("Enter a valid Base number : ", &basenumber);
         scanf("%f", &basenumber);
     }
-    
-    printf("Enter the Exponential : ");
-    scanf("%d", &exponential);
 
     while (exponential != 0)
     {
@@ -77,4 +68,28 @@ int exponential1(float x, int y)
     }
     
 }
+
+int exponential_test(float x, int y)
+{
+    float basenumber, result;
+    int exponential, n;
+    basenumber = x;
+    exponential = y;
+    
+    if(basenumber == 0){
+        return 'Invalid Operand';
+    }   
+    else if(basenumber < 0){
+        return 'Invalid Operand';
+    }
+    else{
+        while (exponential != 0)
+    {
+        result *= basenumber;
+        --exponential;
+    }
+    return result;
+    }
+        
+    
     

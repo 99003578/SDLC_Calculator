@@ -30,4 +30,4 @@
 | TL_11   | Power                         | num=3,base=2            | 8             |                 |
 |         |                               | num=0;base=8            | 1             |                 |
 | TL_12   | Average                       | N=3,A=2,B=4,C=3         | 3             |                 |
-|         |                               | N=120                    |Error          |                 |               
+|         |                               | N=120                    |Error          |                |               

@@ -10,7 +10,7 @@ int exponential()
     if(basenumber == 0)
     {
         printf("Invalid Operand\n");
-        printf("Enter a valid Base number : ", &basenumber);
+        printf("Enter a valid Base number : ");
         scanf("%f", &basenumber);
     }
     
@@ -46,7 +46,7 @@ int exponential1(float x, int y)
     if(basenumber == 0)
     {
         printf("Invalid Operand\n");
-        printf("Enter a valid Base number : ", &basenumber);
+        printf("Enter a valid Base number : ",);
         scanf("%f", &basenumber);
     }
 
@@ -71,7 +71,7 @@ int exponential1(float x, int y)
 
 int exponential_test(float x, int y)
 {
-    float basenumber, result;
+    float basenumber, result = 1;
     int exponential, n;
     basenumber = x;
     exponential = y;

@@ -1,4 +1,4 @@
-PROJECT_NAME = TicTacToe
+PROJECT_NAME = SDLC_Calculator
 
 BUILD = build
 

@@ -19,7 +19,7 @@ void test_subtract_2(void);
 void test_multiply(void);
 void test_divide_1(void);
 void test_divide_2(void);
-
+void test_average(void);
 void setUp(){}
 
 void tearDown(){}
@@ -35,7 +35,7 @@ int main(){
     RUN_TEST(test_divide_1);
     RUN_TEST(test_divide_2);
     RUN_TEST(test_factorial);
-
+    RUN_TEST(test_average);
     return UNITY_END();
 }
 
@@ -45,7 +45,7 @@ void test_add_1(void){
 }
 
 void test_add_2(void){
-    TEST_ASSERT_EQUAL(-20, add2(-30, 10, 1));
+    TEST_ASSERT_EQUAL(-20, basic_operation_test(-30, 10, 1));
 }
 
 void test_subtract_1(void){
@@ -81,7 +81,7 @@ void test_factorial(void){
 TEST_ASSERT_EQUAL("error! Factorial of negative number doesn't exist", factorial(-10));
 }
 
-void test_logarithmvoid test_subtract_2(void){
+void test_logarithmvoid_test_subtract_2(void){
     TEST_ASSERT_EQUAL(-40, basic_operaion_test(-30, 10, 2));
     TEST_ASSERT_EQUAL(-8, basic_operaion_test(-2, 6, 2));
 }ic(void){
@@ -94,7 +94,14 @@ void test_logarithmic(void){
     TEST_ASSERT_EQUAL("Invalid", logarithmic(8,-2));
 }
 
+void test_average_1(void){
+    float a[5] = {2,5,7,4,7};
+    TEST_ASSERT_EQUAL(5, average_test(5, average_test));
+}
 
+void test_average_2(void){
+    int a[100]= {}
+}
 
 
 

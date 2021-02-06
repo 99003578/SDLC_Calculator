@@ -44,10 +44,10 @@ void test_add_1(void){
 }
 
 void test_add_2(void){
-    TEST_ASSERT_EQUAL(-10, basic_operaion_test(-30, 10, 1);)
+    TEST_ASSERT_EQUAL(-10, basic_operaion_test(-30, 10, 1));
 }
 
 
-}
+
 
 

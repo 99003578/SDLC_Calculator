@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include<average_operations.h>
 int average1(int x);
-int main()
+int average()
 {
     int i,m,n;
     float sum=0,a[100],c;
@@ -35,7 +35,7 @@ int main()
     }
     return 0;
 }
-    int average1(int x)
+    int average1(signed int x)
     {
     int n,i;
     float c,sum=0,a[100];

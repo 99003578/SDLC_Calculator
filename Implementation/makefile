@@ -24,7 +24,7 @@ src/interest.c\
 src/logarthmic.c\
 src/power.c\
 src/trignometry1.c\
-test/test_calculator.c\
+Test/test_calculator.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out

@@ -1,5 +1,6 @@
 #include<average_operations.h>
 int average1(int x);
+int averagetest(int a[100]);
 int average()
 {
     int i,m,n;
@@ -78,4 +79,8 @@ int average()
     {
     return c;
     }
+}   
+
+int averagetest(a[100]){
+
 }

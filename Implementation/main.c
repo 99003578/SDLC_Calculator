@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<average_operations.h>
-#include<basic_operations.h>
+#include<basic_operation.h>
 #include<bin_to_dec.h>
 #include<dec_to_bin.h>
 #include<exponential.h>
@@ -8,7 +8,7 @@
 #include<interest.h>
 #include<logarthmic.h>
 #include<power.h>
-#include<trignometry.h>
+#include<trignometry1.h>
 
 int main(){
     int k, j=3;
@@ -30,7 +30,7 @@ int main(){
     scanf("%d", &k);
         switch(k){
             case 1:
-            r = basic_operations();
+            r = basic_operation();
             if(r==0){
                 break;
             }
@@ -102,7 +102,7 @@ int main(){
                 goto front;
             }
             case 10:
-            trignometry();
+            trignometry1();
             break;
 
      }
@@ -122,7 +122,7 @@ int main(){
             case 1:
             printf("enter the second number");
             scanf("%d", &r2);
-            r = basic_operations1(r, r2);
+            r = basic_operation1(r, r2);
             if(r==0){
                 break;
             }
@@ -192,3 +192,4 @@ int main(){
 
 
     }
+}

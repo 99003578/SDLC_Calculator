@@ -1,6 +1,6 @@
-#include<basic_operations.h>
+#include<basic_operation.h>
 
-int basic_operations(){
+int basic_operation(){
     float  j, l;
     int k, m;
     printf("Choose your operation\n");
@@ -11,10 +11,11 @@ int basic_operations(){
     scanf("%d", &k);
 
     switch(k){
+        int result;
         case 1:
         printf("Please enter the numbers\n");
         scanf("%d %d", &j, &l);
-        int result = j + l;
+     result = j + l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
@@ -28,7 +29,7 @@ int basic_operations(){
         case 2:
         printf("Please enter the numbers\n");
         scanf("%d %d", &j, &l);
-        int result = j - l;
+     result = j - l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
@@ -42,7 +43,7 @@ int basic_operations(){
         case 3:
         printf("Please enter the numbers\n");
         scanf("%d %d", &j, &l);
-        int result = j * l;
+     result = j * l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
@@ -63,7 +64,7 @@ int basic_operations(){
         else{
         printf("Please enter the numbers\n");
         scanf("%d %d", &j, &l);
-        int result = j / l;
+        result = j / l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
@@ -94,8 +95,9 @@ int basic_operation1(int x, int y){
     scanf("%d", &k);
 
     switch(k){
+        int result;
         case 1:
-        int result = j + l;
+        result = j + l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
@@ -107,7 +109,7 @@ int basic_operation1(int x, int y){
     }
         break;
         case 2:
-        int result = j - l;
+        result = j - l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
@@ -119,7 +121,7 @@ int basic_operation1(int x, int y){
     }
         break;
         case 3:
-        int result = j * l;
+        result = j * l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
@@ -138,7 +140,7 @@ int basic_operation1(int x, int y){
             goto back;
         }
         else{
-        int result = j / l;
+        result = j / l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);

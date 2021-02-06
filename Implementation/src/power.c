@@ -13,7 +13,7 @@ int power()
         return result;
     }
     if(k ==2){
-        print("%f", &result);
+        printf("%f", &result);
         return 0;
     }
 }
@@ -32,7 +32,7 @@ int power1(float x, float y)
         return result;
     }
     if(k ==2){
-        print("%f", &result);
+        printf("%f", &result);
         return 0;
     }
 }

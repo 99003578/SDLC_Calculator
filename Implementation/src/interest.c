@@ -14,7 +14,7 @@ printf("If you want to print the result press 1 or else press 2:");
     if(n == 1)
     {
        printf("Simple interest = %0.2f",I);
-       return 'end';
+       return 0;
     }
      else{
         return I;
@@ -35,7 +35,7 @@ int interest(){
     if(n == 1)
     {
        printf("Simple interest = %0.2f",I);
-       return 'end';
+       return 0;
     }
      else{
         return I;

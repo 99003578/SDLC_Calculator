@@ -167,7 +167,7 @@ int main(){
             }
             case 8:
             printf("enter base of log");
-            scanf("%d", &r2);
+            scanf("%f", &r2);
             r = logarthmic1(r, r2);
             if(r==0){
                 break;

@@ -1,16 +1,19 @@
-#include<stdio.h>
-int main(int x)
+#include<average_operations.h>
+int average1(int x);
+int averagetest(int a[100]);
+int average()
 {
     int i,m,n;
     float sum=0,a[100],c;
-    if(x==3){
-    back:printf("Enter the Number of Elemnts(Upto 100)\n\n");
+    do{
+    printf("Enter the Number of Elemnts(Upto 100)\n");
     scanf("%d",&n);
-    if(n>100){
-    printf("Enter Number less than 100!!!\n");
-    goto back;
+    if((n>100)||(n<0)){
+    printf("Enter Number of elements between 1 to 100!!! \n");
     }
-    printf("Enter the Numbers\n");
+    continue;
+    }while((n>100)||(n<0));
+    printf("Enter the Numbers \n");
     for(i=0;i<n;i++)
     {
         scanf("%f",&a[i]);
@@ -20,17 +23,34 @@ int main(int x)
     sum+=a[i];
     }
     c=sum/n;
+    printf("If you want to display result press 1 or else to continue further calculation press 2\n");
+    scanf("%d",&m);
+    if(m==1)
+    {
+    printf("Average is %.3f\n",c);
+    return 0;
     }
-    else{
-    back1:printf("Enter the Number of Elemnts(Upto 100)\n\n");
+    else
+    {
+    return c;
+    }
+    return 0;
+}
+int average1(signed int x)
+    {
+    int n,i;
+    float c,sum=0,a[100];
+    do{
+    printf("Enter the Number of Elemnts(Upto 100)\n\n");
     scanf("%d",&n);
-    if(n>100){
-    printf("Enter Number less than 100!!!\n");
-    goto back1;
+    if((n>100)||(n<0)){
+    printf("Enter Number of elements between 1 to 100!!!\n");
     }
+    continue;
+    }while((n>100)||(n<0));
     printf("Enter the Numbers\n");
     a[0]=x;
-    for(i=0;i<n;i++)
+    for(i=1;i<n;i++)
     {
         scanf("%f",&a[i]);
     }
@@ -47,11 +67,23 @@ int main(int x)
     printf("Average is %.3f\n",c);
     return 0;
     }
-    else if(m==2)
-    {
-    printf("GO TO MAIN");
-    return 0;
-    }
     else
-    return 0;  
+    {
+    return c;
+    }
+    return 0;
+}
+
+int average_test(int n,float a){
+
+    int i;
+    float sum,c;
+    if((n>100)||(n<0){
+        return 'error';
+    }
+    for(i=0;i<n;i++){
+      sum+=a[i];
+    }
+    c=sum/n;
+    return c;
 }

@@ -35,7 +35,7 @@ int average()
     }
     return 0;
 }
-    int average1(int x)
+    int average1(signed int x)
     {
     int n,i;
     float c,sum=0,a[100];

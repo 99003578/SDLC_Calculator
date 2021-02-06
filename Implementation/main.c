@@ -1,13 +1,14 @@
 #include<stdio.h>
-
-
-
-
-
-
-
-
-
+#include<average_operations.h>
+#include<basic_operations.h>
+#include<bin_to_dec.h>
+#include<dec_to_bin.h>
+#include<exponential.h>
+#include<factorial.h>
+#include<interest.h>
+#include<logarthmic.h>
+#include<power.h>
+#include<trignometry.h>
 
 int main(){
     int k, j=3;

@@ -38,7 +38,7 @@ int logN(int num,int base)
     return 0;
 }
 int logarthmic_test(int num, int base){
-    int result;
+        int result;
         if(num<base || base<0 || num==0){
             return 'Invalid';
         }

@@ -48,5 +48,6 @@ int interest_test(int x, float y, float z)
     y = R;
     z = T;
 
-    return I = ((P*T*R)/100);
-}   
+
+    return  I = ((P*T*R)/100);
+}

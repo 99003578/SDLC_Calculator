@@ -30,7 +30,7 @@ int basic_operation(){
         printf("Please enter the numbers\n");
         scanf("%f %f", &j, &l);
      result = j - l;
-        printf("Answer is %f", &result);
+        printf("Answer is %d", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -42,9 +42,9 @@ int basic_operation(){
         break;
         case 3:
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
      result = j * l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -63,9 +63,9 @@ int basic_operation(){
         }
         else{
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
         result = j / l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -98,7 +98,7 @@ int basic_operation1(int x, int y){
         int result;
         case 1:
         result = j + l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -110,7 +110,7 @@ int basic_operation1(int x, int y){
         break;
         case 2:
         result = j - l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -122,7 +122,7 @@ int basic_operation1(int x, int y){
         break;
         case 3:
         result = j * l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -141,7 +141,7 @@ int basic_operation1(int x, int y){
         }
         else{
         result = j / l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){

@@ -50,11 +50,12 @@ int fact2(int n)
 }
 
 int factorial_test(int x)
-{
-    if(n<0)
-  return 'error! Factorial of negative number does not exist'
+{int n =x;
+    if(n<0){
+  return 'error! Factorial of negative number does not exist';
+    }
   else {
-    n2=fact2(n1);
+    int n2=fact2(n);
     return n2;
   }
 }

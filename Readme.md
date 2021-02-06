@@ -24,3 +24,23 @@ Test Summary
 |Shubham S N|99003514|average of numbers| 2|2|
 |Nisha M|99003515|factorial of a number|3 |3|
 |Bokka Bhavya Harshika|99003517|logarithmic function|3|3
+
+
+VS Code Best practices
+https://youtu.be/Y1fei1mzP7Q
+
+VS code Installation till-2:30
+
+Extensions installation 3:45-4:15
+
+List of extensions need to be installed
+
+                             1) C/C++
+
+                             2) C/C++ advanced lint
+
+                             3)Doxygen documentation
+
+                             4)Test explorer UI
+
+                             5)Unity framework for C test explorer

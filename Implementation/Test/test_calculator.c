@@ -85,7 +85,10 @@ void test_factorial(void){
 TEST_ASSERT_EQUAL("error! Factorial of negative number doesn't exist", factorial(-10));
 }
 
-void test_logarithmic(void){
+void test_logarithmvoid test_subtract_2(void){
+    TEST_ASSERT_EQUAL(-40, basic_operaion_test(-30, 10, 2));
+    TEST_ASSERT_EQUAL(-8, basic_operaion_test(-2, 6, 2));
+}ic(void){
     TEST_ASSERT_EQUAL(3, logarithmic(8,2));
 }
 void test_logarithmic(void){
@@ -175,3 +178,30 @@ void test_logarithmic(void){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void test_interest_1(void){
+    TEST_ASSERT_EQUAL(2250, multiply1(10000, 3, 7.5));
+}
+
+void test_interest_2(void){
+    TEST_ASSERT_EQUAL(780, multiply2(5000, 2, 7.8));
+}

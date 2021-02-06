@@ -2,18 +2,16 @@
 
 
 int logarthmic(){
-    int num, base;
-    int result;
-
+    int num, base,r2;
         printf("enter the number");
         scanf("%d",&num);
         printf("enter the base");
         scanf("%d",&base);
-        result=logN(num,base);
+        r2=logN(num,base);
         printf("Enter 1 to continue or else 2");
-        int r2;
-        scanf("%d", &r2);
-    if(r==1){
+        int s;
+        scanf("%d", &s);
+    if(s==1){
     printf("%d",r2);
     }
     else

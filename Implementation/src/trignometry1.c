@@ -36,9 +36,9 @@ int trig(int angle)
     printf("Tan(%f) = %f\n", angle, tan(angle)); 
     return 0;
 }
-int trignometry_test(int x)
+int trignometry_test(float x)
 {
-  float angle,x; 
+  float angle; 
 
   x = angle;
 

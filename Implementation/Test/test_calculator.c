@@ -116,8 +116,24 @@ void test_logarithmic(void){
 void test_logarithmic(void){
     TEST_ASSERT_EQUAL("Invalid", logarithmic_test(8,-2));
 }
-
-
+void test_power(void){
+    TEST_ASSERT_EQUAL(8, calculate_power(3,1));
+}
+void test_power(void){
+    TEST_ASSERT_EQUAL(1, calculate_power(0,8));
+}
+void test_trignometry(void){
+    TEST_ASSERT_EQUAL(0.707, trignometry_test(45));
+}
+void test_trignometry(void){
+    TEST_ASSERT_EQUAL('error', trignometry_test(90));
+}
+void test_trignometry(void){
+    TEST_ASSERT_EQUAL(0, trignometry_test(0));
+}
+void test_trignometry(void){
+    TEST_ASSERT_EQUAL(0, trignometry_test(180));
+}
 
 
 

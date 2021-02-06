@@ -7,5 +7,3 @@ This folder consists of the behavioural and structural UML diagrams for the calc
                           High Level Structural Diagram
 
 ![alt text](https://github.com/99003512/SDLC_Calculator/blob/main/Architecture/High_level_Structural(1).png)
-
-

@@ -1,4 +1,4 @@
-#include<trignometry1.h>
+#include<trignometry.h>
 #include<stdio.h>
 #include<math.h>
 

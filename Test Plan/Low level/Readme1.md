@@ -1,11 +1,11 @@
 # Low Level Test Plan
 | TEST_ID | DESCRIPTION                   | INPUT                   | ACTUAL OUTPUT | EXPECTED OUTPUT |
 |---------|-------------------------------|-------------------------|---------------|-----------------|
-| TL_01	  | Addition of two numbers       | A=5,B=6                 | C=11          |                 |
-|         |                               | A=20000000,B=5600000000 | Error         |                 |
-| TL_02   | Subtraction of two numbers    | A=5,B=2                 | C=3           |                 |
+| TL_01	  | Addition of two numbers       | A=20,B=5                 | C=25          |                 |
+|         |                               | A=-30,B=10               | -20         |                 |
+| TL_02   | Subtraction of two numbers    | A=20,B=5                 | C=3           |                 |
 |         |                               | A=2,B=5                 | C=-3          |                 |
-|         |                               | A=-2,B=-6               | C=-4          |                 |
+|         |                               | A=-30,B=10              | C=-40          |                 |
 |         |                               | A=-2,B=6                | C=-8          |                 |
 | TL_03   | Multiplication of two numbers | A=2,B=3                 | C=6           |                 |
 |         |                               | A=-2,B=3                | C=-6          |                 |

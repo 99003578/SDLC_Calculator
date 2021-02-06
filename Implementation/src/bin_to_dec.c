@@ -7,7 +7,7 @@ int bin_to_dec()
     int binnum, decnum=0, i=0, rem,m;
     printf("Enter any binary number: ");
     scanf("%d", &binnum);
-    if(binnum<0 && binnum>1)
+    if((binnum<0) || (binnum>1))
     {
         printf("invalid input");
     }

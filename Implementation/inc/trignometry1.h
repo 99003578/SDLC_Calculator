@@ -3,5 +3,6 @@
 
 #include<stdio.h>
 int trignometry1();
+int trignometry1_test(int x);
  
 #endif 

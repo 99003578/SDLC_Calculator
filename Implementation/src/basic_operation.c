@@ -14,7 +14,7 @@ int basic_operation(){
         int result;
         case 1:
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
      result = j + l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
@@ -58,7 +58,7 @@ int basic_operation(){
         back:
         if(l == 0){
             printf("Denominator cant be zero, please enter again");
-            scanf("%d", &l);
+            scanf("%f", &l);
             goto back;
         }
         else{
@@ -84,8 +84,8 @@ int basic_operation(){
 int basic_operation1(int x, int y){
     float j, l;
     int k;
-    x = j;
-    y = l;
+    j = x;
+    l = y;
     int m;
     printf("Choose your operation\n");
     printf("1 - Addition\n");

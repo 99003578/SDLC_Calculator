@@ -20,6 +20,6 @@
 |RL_07   |User should enter the input time in years and rate in percentage in Simple interest and no negative numbers   |
 |RL_08   |User should enter base and power correctly   |
 |RL_09   |User should enter all the numbers correctly and number of items that should be Average   |
-|RL_09   |User can only enter number of elements to caluclate average between 1-100|    |
+|RL_10   |User can only enter number of elements to caluclate average between 1-100|    |
 |RL_11   |User should enter binary number in 1 and 0's format.
 |RL_12   | Alphabets are not allowed as input.

@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int exponential()
+int main()
 {
     float basenumber;
     int exponential, n;
@@ -33,7 +33,7 @@ int exponential()
     }
 
     else{
-        return result;// Integreators place to be added
+        return result;
 
     }
     
@@ -56,7 +56,7 @@ int exponential1(float x, int y)
     }
     
     printf("Enter the Exponential : ");
-    
+    scanf("%d", &exponential);
 
     while (exponential != 0)
     {
@@ -71,8 +71,9 @@ int exponential1(float x, int y)
     }
 
     else{
-        return result;// Integreators place to be added
+        return result;
 
     }
     
 }
+    

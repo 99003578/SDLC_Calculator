@@ -34,7 +34,7 @@ VS code Installation till-2:30
 
 Extensions installation 3:45-4:15
 
-List of extensions need to be installed
+List of extensions needed to be installed
 
             1.c/c++
             2.c,c++ advanced lint

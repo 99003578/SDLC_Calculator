@@ -22,7 +22,7 @@ int logarthmic(){
 int log2(int x,int y){
     int num = x;
     int base=y;
-    int result=logN(num,base); 
+    int r1=logN(num,base); 
     return result; 
 }
 

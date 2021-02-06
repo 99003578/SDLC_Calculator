@@ -33,7 +33,7 @@ int exponential()
     }
 
     else{
-        return result;// Integreators place to be added
+        return result;
 
     }
     
@@ -71,8 +71,9 @@ int exponential1(float x, int y)
     }
 
     else{
-        return result;// Integreators place to be added
+        return result;
 
     }
     
 }
+    

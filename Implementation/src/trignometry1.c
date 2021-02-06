@@ -41,6 +41,8 @@ int trignometry_test(int x)
   float angle,radian; 
  const float PI = 3.14159;  
   x = angle;
+ radian = angle * (PI / 180.0);  
+  
  if((x==0)||(x==90)){
         return 'error';
  }

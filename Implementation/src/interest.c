@@ -2,13 +2,11 @@
 
 int interest1(int x, float y, float z)
 {
-    int P,n;
-    float T,R,I;
-    x = P;
-    y = R;
-    z = T;
+    int n;
+    float I;
+   
 
-    I = ((P*T*R)/100);
+    I = ((x*y*z)/100);
 printf("If you want to print the result press 1 or else press 2:");
     scanf("%d",&n);
     if(n == 1)
@@ -45,11 +43,8 @@ int interest(){
 
 int interest_test(int x, float y, float z)
 {
-    int P,n;
-    float T,R,I;
-    x = P;
-    y = R;
-    z = T;
-
-    return I = ((P*T*R)/100);
+    
+    float I;
+   
+    return I = ((x*y*z)/100);
 }   

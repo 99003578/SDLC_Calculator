@@ -1,15 +1,19 @@
+# SDLC_Calculator
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/667b75dfb4d94930bf6ab1a3a5388e35)](https://app.codacy.com/gh/99003512/SDLC_Calculator?utm_source=github.com&utm_medium=referral&utm_content=99003512/SDLC_Calculator&utm_campaign=Badge_Grade)
+
+
 Team Summary
 | Name  |  PS No |  Features |  Issue Raised  |Issue Resolved   |
 |---|---|---|---|---|
-|  Amirthakatesa Sairaj R |   99003506 | Exponential function | 2  | 2  |
-| Thanu K V  | 99003507  |  Trignometric function | 1  |  1 |
-| Rajath P DP D  |  99003510 |  Simple intrest |  2 |  2 |
-| Santhrupthi K  |  99003511 | Power function  | 3  |  3 |
-| Karthik Manoj  | 99003512 | Basic arthimatic operations| 2| 2|
-|Phanidra Reddy Raghava Reddy|99003513|Conversions(bin to dec)| 1 |1|
-|Shubham S N|99003514|Average of numbers| 2|2|
-|Nisha M|99003515|Factorial of a number|2 |2|
-|Bokka Bhavya Harshika|99003517|Logarithmic function|2|2
+|  Amirthakatesa Sairaj R |   99003506 | Exponential function ,| 2  | 2  |
+| Thanu K V  | 99003507  |  Trignometric function,test plan | 1  |  1 |
+| Rajath P DP D  |  99003510 |  Simple intrest,SWOT analysis, Cost and aging|  2 |  2 |
+| Santhrupthi K  |  99003511 | Power function , Pros and Cons | 3  |  3 |
+| Karthik Manoj  | 99003512 | Basic arthimatic operations, Integrator| 2| 2|
+|Phanidra Reddy Raghava Reddy|99003513|Conversions(bin to dec),4W 1H| 1 |1|
+|Shubham S N|99003514|Average of numbers,HLD| 2|2|
+|Nisha M|99003515|Factorial of a number,HL requirement|2 |2|
+|Bokka Bhavya Harshika|99003517|Logarithmic function,Test cases|2|2
 
 
 Test Summary

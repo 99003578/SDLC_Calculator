@@ -56,7 +56,7 @@ int exponential1(float x, int y)
     }
     
     printf("Enter the Exponential : ");
-    
+    scanf("%d", &exponential);
 
     while (exponential != 0)
     {

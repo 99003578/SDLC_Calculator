@@ -28,6 +28,8 @@ void test_power(void);
 void test_trignometry(void);
 void test_average(void);
 void test_exponential(void);
+void test_bin_to_dec(void);
+void test_dec_to_bin(void);
 
 void setUp(){}
 
@@ -52,11 +54,9 @@ int main(){
     RUN_TEST(test_trignometry);
     RUN_TEST(test_average);
     RUN_TEST(test_exponential);
-
-<<<<<<< Updated upstream
-=======
+    RUN_TEST(test_bin_to_dec);
+    RUN_TEST(test_dec_to_bin);
    
->>>>>>> Stashed changes
 
     return UNITY_END();
 }
@@ -161,15 +161,7 @@ void test_logarithmic(void){
 
 
 
-
-
-
-
-
-
-
-
-
+test_power
 
 
 
@@ -229,4 +221,12 @@ void test_interest_1(void){
 
 void test_interest_2(void){
     TEST_ASSERT_EQUAL(780, multiply2(5000, 2, 7.8));
+}
+
+void test_bin_to_dec(void){
+    TEST_ASSERT_EQUAL(7, bin_to_dec_test(111));
+}
+
+void test_dec_to_bin(void){
+    TEST_ASSERT_EQUAL(111, dec_to_bin_test(7));
 }

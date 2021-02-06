@@ -29,11 +29,11 @@ int main(){
 
     RUN_TEST(test_add_1);
     RUN_TEST(test_add_2);
-   /* RUN_TEST(test_subtract_1);
+    RUN_TEST(test_subtract_1);
     RUN_TEST(test_subtract_2);
     RUN_TEST(test_multiply);
     RUN_TEST(test_divide_1);
-    RUN_TEST(test_divide_2);*/
+    RUN_TEST(test_divide_2);
 
     return UNITY_END();
 }
@@ -44,9 +44,34 @@ void test_add_1(void){
 }
 
 void test_add_2(void){
+<<<<<<< Updated upstream
     TEST_ASSERT_EQUAL(-10, basic_operaion_test(-30, 10, 1));
+=======
+    TEST_ASSERT_EQUAL(-20, basic_operaion_test(-30, 10, 1);)
+>>>>>>> Stashed changes
 }
 
+void test_subtract_1(void){
+    TEST_ASSERT_EQUAL(15, basic_operation_test(20, 5, 2));
+    TEST_ASSERT_EQUAL(-3, basic_operation_test(2, 5, 2));
+}
+}
+
+void test_subtract_2(void){
+    TEST_ASSERT_EQUAL(-40, basic_operaion_test(-30, 10, 2));
+    TEST_ASSERT_EQUAL(-8, basic_operaion_test(-2, 6, 2));
+}
+void test_multiply_1(void){
+    TEST_ASSERT_EQUAL(6, basic_operation_test(2, 3, 3));
+}
+
+void test_multiply_2(void){
+    TEST_ASSERT_EQUAL(-18, basic_operaion_test(-3, 6, 3));
+}
+
+void test_divide_1(void){
+    TEST_ASSERT_EQUAL(2, basic_operaion_test(6, 2, 4));
+}
 
 
 

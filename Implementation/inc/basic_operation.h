@@ -5,6 +5,7 @@
 
 int basic_operation();
 int basic_operation1(int x, int y);
+int basic_operation_test(int j, int l, int k);
 
 #endif
 

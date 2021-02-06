@@ -45,6 +45,6 @@ int trignometry1_test(int x)
         return 'error';
  }
  
- return radian = angle * (PI / 180.0);  
+ return tan(radian); 
 
 }

@@ -1,5 +1,5 @@
 #include<logarthmic.h>
-int logN(int num,int base);
+
 
 int logarthmic(){
     int num, base;

@@ -54,6 +54,13 @@ int basic_operations(){
     }
         break;
         case 4:
+        back:
+        if(l == 0){
+            printf("Denominator cant be zero, please enter again");
+            scanf("%d", &l);
+            goto back;
+        }
+        else{
         printf("Please enter the numbers\n");
         scanf("%d %d", &j, &l);
         int result = j / l;
@@ -69,6 +76,7 @@ int basic_operations(){
         break;
     }
     
+}
 }
 
 
@@ -123,6 +131,13 @@ int basic_operation1(int x, int y){
     }
         break;
         case 4:
+        back:
+        if(l == 0){
+            printf("Denominator cant be zero, please enter again");
+            scanf("%d", &l);
+            goto back;
+        }
+        else{
         int result = j / l;
         printf("Answer is %.0f", &result);
         printf("Enter 1 if you want to continue else 2");
@@ -134,6 +149,7 @@ int basic_operation1(int x, int y){
         return 0;
     }
         break;
+    }
     }
     
 }

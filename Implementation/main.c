@@ -13,8 +13,8 @@
 int main(){
     int k, j=3;
     int r;
-    int r2;
-    int r3;
+    float r2;
+    float r3;
    
         printf("Please select the number for the select function \n");
         printf("1 - basic operators(Add, Subtract, multiply, division)\n");

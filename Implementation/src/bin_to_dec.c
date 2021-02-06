@@ -1,6 +1,6 @@
 #include<bin_to_dec.h>
 #include<stdio.h>
-#include<conio.h>
+
 #include<math.h>
 int bin_to_dec()
 {

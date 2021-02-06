@@ -1,16 +1,34 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = SDLC_Calculator
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c
+SRC = main.c\
+src/average.c\
+src/basic_operations.c\
+src/bin_to_dec.c\
+src/dec_to_bin.c\
+src/exponential.c\
+src/factorial.c\
+src/interest.c\
+src/logarthmic.c\
+src/power.c\
+src/trignometry.c\
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
+TEST_SRC = src/average.c\
+src/basic_operations.c\
+src/bin_to_dec.c\
+src/dec_to_bin.c\
+src/exponential.c\
+src/factorial.c\
+src/interest.c\
+src/logarthmic.c\
+src/power.c\
+src/trignometry.c\
+Test/test_calculator.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out

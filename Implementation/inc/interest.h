@@ -4,6 +4,6 @@
 #include<stdio.h>
 int interest();
 
-int interest1(int x, float y, float z);
+int interest2(int x, float y, float z);
 
 #endif

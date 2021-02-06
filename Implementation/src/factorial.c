@@ -4,7 +4,7 @@ int factorial()
 signed int n, factorial;
 printf("enter the number");
 scanf("%d",&n);
-factorial=fact2(n);
+factorial=fact(n);
 printf("enter 1 for continuation else 2");
 int k;
 scanf("%d", &k);
@@ -17,10 +17,11 @@ else{
 }
 }
 
-int factorial1(signed int x){
+int factorial2(signed int x)
+{
 int n1, factorial;
     n1 = x;
-    factorial=fact2(n1);
+    factorial=fact(n1);
     printf("enter 1 for continuation else 2");
 int k;
 scanf("%d", &k);
@@ -28,13 +29,13 @@ if(k=1){
     return factorial;
 }
 else{
-    printf("factorial of %d = %d",n1 ,factorial);
+    printf("factorial of %d = %d",n1,factorial);
     return 0;
 }
 
 }
 
-int fact2(int n)
+int fact(int n)
 { 
     if(n<0)
   printf("error! Factorial of negative number doesn't exist");

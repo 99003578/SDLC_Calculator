@@ -2,6 +2,6 @@
 #define __FACTORIAL_H__
 
 #include<stdio.h>
-int factorial();
-int factorial1(signed int x);
+ int factorial();
+ int factorial2(signed int x);
 #endif 

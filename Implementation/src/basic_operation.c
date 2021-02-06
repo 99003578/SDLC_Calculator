@@ -16,7 +16,7 @@ int basic_operation(){
         printf("Please enter the numbers\n");
         scanf("%f %f", &j, &l);
      result = j + l;
-        printf("Answer is %f", result);
+        printf("Answer is %d", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -28,9 +28,9 @@ int basic_operation(){
         break;
         case 2:
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
      result = j - l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %f", &result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){

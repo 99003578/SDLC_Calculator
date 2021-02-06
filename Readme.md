@@ -27,6 +27,7 @@ Test Summary
 
 
 VS Code Best practices
+
 https://youtu.be/Y1fei1mzP7Q
 
 VS code Installation till-2:30
@@ -35,12 +36,10 @@ Extensions installation 3:45-4:15
 
 List of extensions need to be installed
 
-                             1) C/C++
-
-                             2) C/C++ advanced lint
-
-                             3)Doxygen documentation
-
-                             4)Test explorer UI
-
-                             5)Unity framework for C test explorer
+            1.c/c++
+            2.c,c++ advanced lint
+            3.Doxygen documentation
+            4.Test explorer UI
+            5.Unity framework for C test explorer
+            
+            

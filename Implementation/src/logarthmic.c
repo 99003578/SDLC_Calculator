@@ -11,19 +11,19 @@ int logarthmic(){
         scanf("%d",&base);
         result=logN(num,base);
         printf("Enter 1 to continue or else 2");
-        int r;
-        scanf("%d", &r);
+        int r2;
+        scanf("%d", &r2);
     if(r==1){
-    printf("%d",result);
+    printf("%d",r2);
     }
     else
-    return result;
+    return r2;
 }
 int log2(int x,int y){
     int num = x;
     int base=y;
     int r1=logN(num,base); 
-    return result; 
+    return r1; 
 }
 
 

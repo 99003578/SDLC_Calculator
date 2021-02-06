@@ -29,7 +29,7 @@ int log2(int x,int y){
 
 int logN(int num,int base)
 {
-    if(base < 0 || num==0 || num<base)
+    if(num==0 || num<base)
       printf("Invalid");
     else
     {
@@ -39,7 +39,7 @@ int logN(int num,int base)
 }
 int logarthmic_test(int num, int base){
         int result;
-        if(num<base || base<0 || num==0){
+        if(num<base || num==0){
             return 'Invalid';
         }
         else

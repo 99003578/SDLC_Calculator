@@ -139,7 +139,7 @@ int main(){
             }
             case 5:
             printf("Enter the exponential:");
-            scanf("%d", &r2);
+            scanf("%f", &r2);
             r = exponential1(r, r2);
             if(r==0){
                 break;

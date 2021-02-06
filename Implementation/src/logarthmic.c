@@ -11,40 +11,42 @@ int logarthmic(){
         scanf("%d",&base);
         result=logN(num,base);
         printf("Enter 1 to continue or else 2");
-int r;
-scanf("%d", &r);
-if(r==1){
+        int r;
+        scanf("%d", &r);
+    if(r==1){
+    printf("%d",result);
+    }
+    else
     return result;
 }
-else{
-    return 0;
-}
-}
-int logarthmic1(int x, int y){
-     int num, base;
-    int result;
+int log2(int x,int y){
     num = x;
-    base = y;
-    result = logN(num,base);
-printf("Enter 1 to continue or else 2");
-int r;
-scanf("%d", &r);
-if(r==1){
-    return result;
-}
-else{
-    return 0;
+    base=y;
+    result=logN(num,base); 
+    return result; 
 }
 }
+
 int logN(int num,int base)
 {
-    if(base < 0 || num==0)
+    if(base < 0 || num==0 || num<base)
       printf("Invalid");
     else
     {
-      if(num<base)
-           return 0;
-      return 1 + logN(num/base,base);
+           return 1 + logN(num/base,base);
     }
     return 0;
+}
+int logarthmic_test(int num, int base){
+    int result;
+        if(num<base || base<0 || num==0){
+            return 'Invalid'
+        }
+        else
+        {
+            result=1 + logN(num/base,base);
+            return result;
+        }
+        
+    }
 }

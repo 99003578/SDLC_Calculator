@@ -3,7 +3,7 @@
 #include<math.h>
 
 
- int trig(int angle);
+ int trig(int angle)
 int trignometry1()
 {
     float angle=0,trignometry;
@@ -23,16 +23,28 @@ int trignometry1()
 }   
 int trig(int angle)  
 {  
-    float degree, radian;  
+    float angle, radian;  
     const float PI = 3.14159;  
   
-    printf("Enter angle in degree\n");  
-    scanf("%f",&degree);  
+    printf("Enter angle \n");  
+    scanf("%f",&angle);  
   
-    radian = degree * (PI / 180.0);  
+    radian = angle * (PI / 180.0);  
   
-    printf("Sin(%f) = %f\n", degree, sin(radian));  
-    printf("Cos(%f) = %f\n", degree, cos(radian));  
-    printf("Tan(%f) = %f\n", degree, tan(radian)); 
+    printf("Sin(%f) = %f\n", angle, sin(radian));  
+    printf("Cos(%f) = %f\n", angle, cos(radian));  
+    printf("Tan(%f) = %f\n", angle, tan(radian)); 
     return 0;
+}
+int trignometry1_test(int x)
+{
+  float angle,radian; 
+ const float PI = 3.14159;  
+  x = angle;
+ if((x==0)||(x==90){
+        return 'error';
+ }
+ 
+ return radian = angle * (PI / 180.0);  
+
 }

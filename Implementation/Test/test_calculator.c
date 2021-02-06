@@ -34,7 +34,7 @@ int main(){
     RUN_TEST(test_multiply);
     RUN_TEST(test_divide_1);
     RUN_TEST(test_divide_2);
-    RUN_TEST(test_factorial(void)
+    RUN_TEST(test_factorial);
 
     return UNITY_END();
 }
@@ -45,11 +45,7 @@ void test_add_1(void){
 }
 
 void test_add_2(void){
-<<<<<<< Updated upstream
-    TEST_ASSERT_EQUAL(-10, add2(-30, 10, 1));
-=======
-    TEST_ASSERT_EQUAL(-20, add2(-30, 10, 1);)
->>>>>>> Stashed changes
+    TEST_ASSERT_EQUAL(-20, add2(-30, 10, 1));
 }
 
 void test_subtract_1(void){

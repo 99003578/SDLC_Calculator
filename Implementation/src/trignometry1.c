@@ -3,7 +3,7 @@
 #include<math.h>
 
 
- int trig(int angle);
+ int trig(int angle)
 int trignometry1()
 {
     float angle=0,trignometry;

@@ -21,6 +21,9 @@ void test_divide_1(void);
 void test_divide_2(void);
 void test_factorial(void);
 void test_logarithmic(void);
+void test_bin_to_dec(void);
+
+
 
 void setUp(){}
 
@@ -37,10 +40,8 @@ int main(){
     RUN_TEST(test_divide_1);
     RUN_TEST(test_divide_2);
     RUN_TEST(test_factorial);
-<<<<<<< Updated upstream
-=======
     RUN_TEST(test_logarithmic);
->>>>>>> Stashed changes
+    RUN_TEST(test_bin_to_dec);
 
     return UNITY_END();
 }
@@ -51,15 +52,8 @@ void test_add_1(void){
 }
 
 void test_add_2(void){
-<<<<<<< Updated upstream
-    TEST_ASSERT_EQUAL(-20, add2(-30, 10, 1));
-=======
-<<<<<<< Updated upstream
-    TEST_ASSERT_EQUAL(-10, basic_operation_test(-30, 10, 1));
-=======
     TEST_ASSERT_EQUAL(-20, basic_operation_test(-30, 10, 1);)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+
 }
 
 void test_subtract_1(void){
@@ -208,4 +202,8 @@ void test_interest_1(void){
 
 void test_interest_2(void){
     TEST_ASSERT_EQUAL(780, multiply2(5000, 2, 7.8));
+}
+
+void test_bin_to_dec(void){
+    TEST_ASSERT_EQUAL
 }

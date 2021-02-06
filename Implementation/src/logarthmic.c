@@ -20,12 +20,12 @@ int logarthmic(){
     return result;
 }
 int log2(int x,int y){
-    num = x;
-    base=y;
-    result=logN(num,base); 
+    int num = x;
+    int base=y;
+    int result=logN(num,base); 
     return result; 
 }
-}
+
 
 int logN(int num,int base)
 {
@@ -40,7 +40,7 @@ int logN(int num,int base)
 int logarthmic_test(int num, int base){
     int result;
         if(num<base || base<0 || num==0){
-            return 'Invalid'
+            return 'Invalid';
         }
         else
         {
@@ -49,4 +49,4 @@ int logarthmic_test(int num, int base){
         }
         
     }
-}
+

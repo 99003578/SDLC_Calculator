@@ -3,7 +3,7 @@
 #include<math.h>
 
 
- int trig(int angle)
+ int trig(int angle);
 int trignometry()
 {
     float angle=0,trignometry;
@@ -41,7 +41,7 @@ int trignometry_test(int x)
   float angle,radian; 
  const float PI = 3.14159;  
   x = angle;
- if((x==0)||(x==90){
+ if((x==0)||(x==90)){
         return 'error';
  }
  

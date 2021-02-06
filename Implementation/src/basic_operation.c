@@ -16,7 +16,7 @@ int basic_operation(){
         printf("Please enter the numbers\n");
         scanf("%f %f", &j, &l);
      result = j + l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %f", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -136,7 +136,7 @@ int basic_operation1(int x, int y){
         back:
         if(l == 0){
             printf("Denominator cant be zero, please enter again");
-            scanf("%d", &l);
+            scanf("%f", &l);
             goto back;
         }
         else{

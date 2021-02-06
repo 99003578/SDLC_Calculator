@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<power.h>
 int calculate_power(float,float);
 int power()
 {

@@ -110,8 +110,6 @@ int main(){
         printf("Please select the number for the select function \n");
         printf("1 - basic operators(Add, Subtract, multiply, division)\n");
         printf("2 - average\n");
-        printf("3 - Binary to Decimal conversion\n");
-        printf("4 - Decimal to Binary conversion\n");
         printf("5 - Exponential operation\n");
         printf("6 - Factorial operation\n");
         printf("7 - Simple Interest Operation\n");
@@ -122,7 +120,7 @@ int main(){
         switch(k){
             case 1:
             printf("enter the second number");
-            scanf("%d", &r2)
+            scanf("%d", &r2);
             r = basic_operations1(r, r2);
             if(r==0){
                 break;
@@ -177,15 +175,18 @@ int main(){
                 goto front;
             }
             case 9:
-            r = power();
-           if(r>0){
+           
+            printf("Please enter the exponential number");
+            scanf("%f", &r2);
+             r = power1(r, r2);
+           if(r==0){
                 break;
             }
             else{
                 goto front;
             }
 
-
+    return 0;
 
 
 

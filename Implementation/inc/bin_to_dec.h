@@ -3,5 +3,5 @@
 
 #include<stdio.h>
 
-int bintodec();
+int bin_to_dec();
 #endif 

@@ -1,7 +1,7 @@
 #include<trignometry.h>
 #include<stdio.h>
 #include<math.h>
-int x=50;
+
 
  int trig(int angle);
 int trignometry1()

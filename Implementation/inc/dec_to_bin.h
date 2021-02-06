@@ -3,5 +3,5 @@
 
 #include<stdio.h>
 
-int dectobin();
+int dec_to_bin();
 #endif 

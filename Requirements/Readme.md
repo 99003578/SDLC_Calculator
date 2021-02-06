@@ -2,8 +2,8 @@
 |Req ID |Description   |
 |--:|---|
 |RH_01   |Must perform the basic arithmetic operations such as addition, subtraction, multiplication and division|  
-|RH_02   |to perform trigonometry ,factorial, logarithmic functions, exponentials,simple interest, power of a number|
-|RH_03   |to perform average, conversions of numbers   |
+|RH_02   |to perform trigonometry ,factorial, logarithmic functions, exponentials,simple interest and power of a number operations|
+|RH_03   |to perform average and conversions of numbers operations  |
 |RH_04   |In any situation, the calculator must produce a correct result defined by the well-known arithmetic rules.|
 |RH_05  |User to resolve the erroneous if the calculations are impossible the calculator must display information helping the situation    |
 

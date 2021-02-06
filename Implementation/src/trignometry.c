@@ -4,7 +4,7 @@
 
 
  int trig(int angle)
-int trignometry1()
+int trignometry()
 {
     float angle=0,trignometry;
     printf("enter the number");
@@ -36,7 +36,7 @@ int trig(int angle)
     printf("Tan(%f) = %f\n", angle, tan(radian)); 
     return 0;
 }
-int trignometry1_test(int x)
+int trignometry_test(int x)
 {
   float angle,radian; 
  const float PI = 3.14159;  

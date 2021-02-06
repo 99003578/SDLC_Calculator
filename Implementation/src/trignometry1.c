@@ -40,7 +40,7 @@ int trignometry_test(float x)
 {
   float angle; 
 
-  x = angle;
+  angle=x;
 
   
  if((x==0)||(x==90)){

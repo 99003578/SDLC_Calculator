@@ -6,3 +6,5 @@ INTRODUCTION
    
    the following calculator consits of various features which includes basic arthimatic operations such as addition, subraction,multiplication and division 
    it can perform factorial,trignometric ,exponential,logarithmic, average and simple intrest operations
+
+![cppcheck-action](https://github.com/99003512/SDLC_Calculator/workflows/cppcheck-action/badge.svg)

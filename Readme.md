@@ -6,7 +6,7 @@
 Team Summary
 | Name  |  PS No |  Features |  Issue Raised  |Issue Resolved   |
 |---|---|---|---|---|
-|  Amirthakatesa Sairaj R |   99003506 | Exponential function ,| 2  | 2  |
+|  Amirthakatesa Sairaj R |   99003506 | Exponential function,UMLs for exponential| 2  | 2  |
 | Thanu K V  | 99003507  |  Trignometric function,test plan | 1  |  1 |
 | Rajath P DP D  |  99003510 |  Simple intrest,SWOT analysis, Cost and aging|  2 |  2 |
 | Santhrupthi K  |  99003511 | Power function , Pros and Cons | 3  |  3 |
@@ -22,7 +22,7 @@ Test Summary
 |---|---|---|---|---|
 |  Amirthakatesa Sairaj R |   99003506 | Exponential function | 2  | 2  |
 | Thanu K V  | 99003507  |  Trignometric function | 4 |  4 |
-| Rajath P DP D  |  99003510 |  Simple intrest |  1 |  1 |
+| Rajath P DP D  |  99003510 |  Simple intrest |  2 |  2 |
 | Santhrupthi K  |  99003511 | Power function  | 2  |  2 |
 | Karthik Manoj  | 99003512 | Basic arthimatic operations| 8| 8|
 |Phanidra Reddy Raghava Reddy|99003513|Conversions(bin to dec)| 2 |2|

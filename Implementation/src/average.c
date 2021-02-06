@@ -72,3 +72,14 @@ int average1(signed int x)
     }
     return 0;
 }
+
+int average_test(int n,int a){
+
+    int i;
+    float sum,c;
+    for(i=0;i<n;i++){
+      sum+=a[i];
+    }
+    c=sum/n;
+    return c;
+}

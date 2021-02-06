@@ -38,13 +38,12 @@ int logN(int num,int base)
     return 0;
 }
 int logarthmic_test(int num, int base){
-        int r;
         if(num<base || num==0){
             return 'Invalid';
         }
         else
         {
-            r=1 + logN(num/base,base);
+           int r=1 + logN(num/base,base);
             return r;
         }
         

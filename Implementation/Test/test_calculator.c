@@ -47,7 +47,6 @@ int main(){
     RUN_TEST(test_factorial);
     RUN_TEST(test_logarithmic);
     RUN_TEST(test_bin_to_dec);
-  
     RUN_TEST(test_interest);
     RUN_TEST(test_power);
     RUN_TEST(test_trignometry);

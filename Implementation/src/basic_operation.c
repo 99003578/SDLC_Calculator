@@ -153,5 +153,34 @@ int basic_operation1(int x, int y){
         break;
     }
     }
+}
+    int basic_operation_test(int j, int l, int k){
+        switch(k){
+        int result;
+        case 1:
+        result = j + l;
+        return result;
+        break;
+        case 2:
+        result = j - l;
+        return result;
+        break;
+        case 3:
+        result = j * l;
+        return result;
+        break;
+        case 4:
+        back:
+        if(l == 0){
+            printf("Denominator cant be zero, please enter again");
+            scanf("%d", &l);
+            goto back;
+        }
+        else{
+        result = j / l;
+       
+        break;
+    }
+    }
     
 }

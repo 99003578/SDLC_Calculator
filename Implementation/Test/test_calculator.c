@@ -65,15 +65,11 @@ void test_add_1(void){
 }
 
 void test_add_2(void){
-<<<<<<< Updated upstream
+
     TEST_ASSERT_EQUAL(-20, add2(-30, 10, 1));
-=======
-<<<<<<< Updated upstream
-    TEST_ASSERT_EQUAL(-10, basic_operation_test(-30, 10, 1));
-=======
-    TEST_ASSERT_EQUAL(-20, basic_operation_test(-30, 10, 1);)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+
+    TEST_ASSERT_EQUAL(-20, basic_operation_test(-30, 10, 1));
+
 }
 
 void test_subtract_1(void){
@@ -159,7 +155,6 @@ void test_logarithmic(void){
 
 
 
-test_power
 
 
 
@@ -225,3 +220,4 @@ void test_bin_to_dec(void){
     TEST_ASSERT_EQUAL(7, bin_to_dec_test(111));
 }
 
+void 

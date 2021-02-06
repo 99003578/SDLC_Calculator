@@ -40,7 +40,11 @@ int main(){
 
 
 void test_add_1(void){
-    
+    TEST_ASSERT_EQUAL(25, basic_operation_test(20, 5, 1));
+}
+
+void test_add_2(void){
+    TEST_ASSERT_EQUAL(-10, basic_operaion_test(-30, 10, 1);)
 }
 
 

@@ -1,4 +1,5 @@
 # SDLC_Calculator
+![cppcheck-action](https://github.com/99003512/SDLC_Calculator/workflows/cppcheck-action/badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/667b75dfb4d94930bf6ab1a3a5388e35)](https://app.codacy.com/gh/99003512/SDLC_Calculator?utm_source=github.com&utm_medium=referral&utm_content=99003512/SDLC_Calculator&utm_campaign=Badge_Grade)
 
 

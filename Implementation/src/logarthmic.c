@@ -1,7 +1,7 @@
 #include<logarthmic.h>
 int logN(int num,int base);
-int log2(int x);
-int log1{
+
+int logarthmic(){
     int num, base;
     int result;
 
@@ -10,16 +10,22 @@ int log1{
         printf("enter the base");
         scanf("%d",&base);
         result=logN(num,base);
-        printf("%d",result);
-        return 0;
+        printf("Enter 1 to continue or else 2");
+int r;
+scanf("%d", &r);
+if(r==1){
+    return result;
 }
-int log2(int x){
-    num = x;
-    scanf("%d",&base);
-    result = logN(num,base);
-    printf("%d",result);
+else{
     return 0;
-} 
+}
+}
+int logarthmic1(int x, int y){
+     int num, base;
+    int result;
+    num = x;
+    base = y;
+    result = logN(num,base);
 printf("Enter 1 to continue or else 2");
 int r;
 scanf("%d", &r);

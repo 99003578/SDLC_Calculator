@@ -1,6 +1,6 @@
 #include<interest.h>
 
-int interest2(int x, float y, float z)
+int interest1(int x, float y, float z)
 {
     int P,n;
     float T,R,I;
@@ -14,25 +14,28 @@ printf("If you want to print the result press 1 or else press 2:");
     if(n == 1)
     {
        printf("Simple interest = %0.2f",I);
-       return 'end';
+       return 0;
     }
      else{
         return I;
 
 
     }
+}
 int interest(){
+    int P,n;
+    float T,R,I;
     printf("Enter the principle, time in years and rate of interest:\n");
     scanf("%d%f%f",&P,&T,&R);
     I = (P*T*R)/100;
-    }
     
-    printf("If you want to print the result press 1 or else press 2:");
+    
+    printf("If you want to print the result press 1 or else press 2");
     scanf("%d",&n);
     if(n == 1)
     {
        printf("Simple interest = %0.2f",I);
-       return 'end';
+       return 0;
     }
      else{
         return I;
@@ -48,6 +51,5 @@ int interest_test(int x, float y, float z)
     y = R;
     z = T;
 
-
-    return  I = ((P*T*R)/100);
-}
+    return I = ((P*T*R)/100);
+}   

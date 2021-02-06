@@ -59,7 +59,6 @@ int average1(signed int x)
         sum+=a[i];
     }
     c=sum/(n+1);
-    }
     printf("If you want to display result press 1 or else to continue further calculation press 2\n");
     scanf("%d",&m);
     if(m==1)

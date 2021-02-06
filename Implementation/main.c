@@ -186,7 +186,7 @@ int main(){
             else{
                 goto front;
             }
-//
+
     return 0;
 
 

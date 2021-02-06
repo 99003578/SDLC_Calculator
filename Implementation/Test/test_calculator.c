@@ -37,10 +37,9 @@ int main(){
     RUN_TEST(test_divide_1);
     RUN_TEST(test_divide_2);
     RUN_TEST(test_factorial);
-    RUN_TEST(test_logarithmic);
 <<<<<<< Updated upstream
 =======
-   
+    RUN_TEST(test_logarithmic);
 >>>>>>> Stashed changes
 
     return UNITY_END();
@@ -204,7 +203,7 @@ void test_logarithmic(void){
 
 
 void test_interest_1(void){
-    TEST_ASSERT_EQUAL(2250, interest_test(10000, 3, 7.5));
+    TEST_ASSERT_EQUAL(2250, multiply1(10000, 3, 7.5));
 }
 
 void test_interest_2(void){

@@ -71,7 +71,7 @@ int exponential1(float x, int y)
 
 int exponential_test(float x, int y)
 {
-    float basenumber, result;
+    float basenumber, result = 1;
     int exponential, n;
     basenumber = x;
     exponential = y;

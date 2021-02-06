@@ -21,9 +21,9 @@ int trignometry()
 
     }
 }   
-int trig(int angle)  
+int trig(float angle)  
 {  
-    float angle, radian;  
+    float radian;  
     const float PI = 3.14159;  
   
     printf("Enter angle \n");  

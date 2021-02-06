@@ -6,6 +6,7 @@
 |RH_03   |to perform average and conversions of numbers operations  |
 |RH_04   |In any situation, the calculator must produce a correct result defined by the well-known arithmetic rules.|
 |RH_05  |User to resolve the erroneous if the calculations are impossible the calculator must display information helping the situation    |
+|RH_06  |After performing one calculation user can perform another caluclation by using the result obtained in previous calculation.|
 
 # Low Level  Requirements
 |Req ID   |Description   |
@@ -19,5 +20,6 @@
 |RL_07   |User should enter the input time in years and rate in percentage in Simple interest and no negative numbers   |
 |RL_08   |User should enter base and power correctly   |
 |RL_09   |User should enter all the numbers correctly and number of items that should be Average   |
-|RL_09   |User should enter binary number in 1 and 0's format.
-|RL_10   | Alphabets are not allowed as input.
+|RL_09   |User can only enter number of elements to caluclate average between 1-100|    |
+|RL_11   |User should enter binary number in 1 and 0's format.
+|RL_12   | Alphabets are not allowed as input.

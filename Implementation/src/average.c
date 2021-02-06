@@ -37,7 +37,7 @@ int average()
 }
     int average1(signed int x)
     {
-    int n,i;
+    int n, i, m;
     float c,sum=0,a[100];
     do{
     printf("Enter the Number of Elemnts(Upto 100)\n\n");
@@ -46,8 +46,9 @@ int average()
     printf("Enter Number of elements between 1 to 100!!!\n");
     }
     continue;
-    }while((printf("If you want to display result press 1 or else to continue further calculation press 2\n");
-    scanf("%d",&m);
+    }
+    printf("If you want to display result press 1 or else to continue further calculation press 2\n");
+    scanf("%d", &m);
     if(m==1)
     {
     printf("Average is %.3f\n",c);

@@ -22,14 +22,13 @@ void test_divide_2(void);
 void test_factorial(void);
 void test_logarithmic(void);
 void test_bin_to_dec(void);
-void test_dec_to_bin(void);
 void test_interest(void);
 void test_power(void);
 void test_trignometry(void);
 void test_average(void);
 void test_exponential(void);
-void test_bin_to_dec(void);
-void test_dec_to_bin(void);
+
+
 
 void setUp(){}
 
@@ -48,14 +47,13 @@ int main(){
     RUN_TEST(test_factorial);
     RUN_TEST(test_logarithmic);
     RUN_TEST(test_bin_to_dec);
-    RUN_TEST(test_dec_to_bin);
+  
     RUN_TEST(test_interest);
     RUN_TEST(test_power);
     RUN_TEST(test_trignometry);
     RUN_TEST(test_average);
     RUN_TEST(test_exponential);
-    RUN_TEST(test_bin_to_dec);
-    RUN_TEST(test_dec_to_bin);
+   
    
 
     return UNITY_END();
@@ -227,6 +225,3 @@ void test_bin_to_dec(void){
     TEST_ASSERT_EQUAL(7, bin_to_dec_test(111));
 }
 
-void test_dec_to_bin(void){
-    TEST_ASSERT_EQUAL(111, dec_to_bin_test(7));
-}

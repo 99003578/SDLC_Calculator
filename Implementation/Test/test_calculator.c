@@ -37,9 +37,10 @@ int main(){
     RUN_TEST(test_divide_1);
     RUN_TEST(test_divide_2);
     RUN_TEST(test_factorial);
+    RUN_TEST(test_logarithmic);
 <<<<<<< Updated upstream
 =======
-    RUN_TEST(test_logarithmic);
+   
 >>>>>>> Stashed changes
 
     return UNITY_END();

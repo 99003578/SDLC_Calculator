@@ -17,7 +17,7 @@
 | TL_06   | Trignometric                  | Sin x; x=45             | C=0.707       |                 |
 |         |                               | tan x;x=45              | C=1           |                 |
 |         |                               | tan x;x=90              | Error         |                 |
-|         |                               | cot x;x=0               | Error         |                 |
+|         |                               | tan x;x=0               | Error         |                 |
 | TL_07   | Conversion(dec to bin)        | A=37                    | C=10101       |                 |
 |         |                               | A=64001                 | Error         |                 |
 | TL_08   | Exponential                   | x=1                     | 2.701         |                 |

@@ -2,6 +2,6 @@
 #define __EXPONENTIAL_H__
 
 #include<stdio.h>
-int exponential();
+int main();
 int exponential1(float x, int y);
 #endif 

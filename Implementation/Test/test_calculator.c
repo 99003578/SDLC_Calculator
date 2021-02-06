@@ -173,6 +173,5 @@ void test_logarithmic(void){
 
 
 
-}
 
 

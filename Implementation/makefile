@@ -14,7 +14,20 @@ src/logarthmic.c\
 src/power.c\
 src/trignometry1.c\
 
+TEST_SRC = src/average.c\
+src/basic_operation.c\
+src/bin_to_dec.c\
+src/dec_to_bin.c\
+src/exponential.c\
+src/factorial.c\
+src/interest.c\
+src/logarthmic.c\
+src/power.c\
+src/trignometry1.c\
+test/test_calculator.c\
+unity/unity.c\
 
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 INC	= -Iinc\
 -Iunity
@@ -38,7 +51,7 @@ doc:
 
 
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
   
   

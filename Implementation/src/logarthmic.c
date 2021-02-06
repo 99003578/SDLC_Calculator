@@ -21,8 +21,8 @@ int logarthmic(){
 }
 int log2(int x,int y){
     int num = x;
-    int base=y;
-    int r1=logN(num,base); 
+    int base=y,r1;
+    r1=logN(num,base); 
     return r1; 
 }
 

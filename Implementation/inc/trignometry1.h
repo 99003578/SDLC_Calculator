@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 int trignometry();
-int trig(int angle);
-int trignometry_test(int x);
+int trig(float angle);
+int trignometry_test(float x);
  
 #endif 

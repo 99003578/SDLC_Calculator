@@ -220,19 +220,3 @@ void test_exponential(void){
 
 
 
-
-void test_interest_1(void){
-    TEST_ASSERT_EQUAL(2250, interest_test(10000, 3, 7.5));
-}
-
-void test_interest_2(void){
-    TEST_ASSERT_EQUAL(780, multiply2(5000, 2, 7.8));
-}
-
-void test_bin_to_dec(void){
-    TEST_ASSERT_EQUAL(7, bin_to_dec_test(111));
-}
-
-void test_exponential(void){
-    TEST_ASSERT_EQUAL('Invalid Operand', exponential_test(0,2));
-}

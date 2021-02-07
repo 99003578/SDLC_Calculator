@@ -154,7 +154,7 @@ void test_interest_1(void){
 }
 
 void test_interest_2(void){
-    TEST_ASSERT_EQUAL(780, multiply2(5000, 2, 7.8));
+    TEST_ASSERT_EQUAL(780, interest_test(5000, 2, 7.8));
 }
 void test_exponential(void){
     TEST_ASSERT_EQUAL('Invalid Operand', exponential_test(0,2));

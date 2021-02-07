@@ -22,8 +22,8 @@ void test_divide_2(void);
 void test_factorial_1(void);
 void test_factorial_2(void);
 void test_factorial_3(void);
-void test_logarithmic_1(void);
-void test_logarithmic_3(void);
+void test_logarthmic_1(void);
+void test_logarthmic_3(void);
 
 void test_interest_1(void);
 void test_interest_2(void);
@@ -55,8 +55,8 @@ int main(){
     RUN_TEST(test_factorial_1);
     RUN_TEST(test_factorial_2);
     RUN_TEST(test_factorial_3);
-    RUN_TEST(test_logarithmic_1);
-    RUN_TEST(test_logarithmic_3);
+    RUN_TEST(test_logarthmic_1);
+    RUN_TEST(test_logarthmic_3);
 
     RUN_TEST(test_interest_1);
     RUN_TEST(test_interest_2);
@@ -125,11 +125,11 @@ void test_logarthmic_1(void){
 }
 
 void test_logarthmic_2(void){
-    TEST_ASSERT_EQUAL("Invalid", logarithmic_test(8,-2));
+    TEST_ASSERT_EQUAL("Invalid", logarthmic_test(8,-2));
 }
 
-void test_logarithmic_3(void){
-    TEST_ASSERT_EQUAL("Invalid", logarithmic_test(8,-2));
+void test_logarthmic_3(void){
+    TEST_ASSERT_EQUAL("Invalid", logarthmic_test(8,-2));
 }
 void test_power_1(void){
     TEST_ASSERT_EQUAL(8, calculate_power(3,1));

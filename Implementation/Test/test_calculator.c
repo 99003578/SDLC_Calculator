@@ -55,7 +55,6 @@ int main(){
     RUN_TEST(test_factorial_1);
     RUN_TEST(test_factorial_2);
     RUN_TEST(test_factorial_3);
-    RUN_TEST();
     RUN_TEST(test_logarithmic_1);
     RUN_TEST(test_logarithmic_3);
 

@@ -16,7 +16,7 @@ jobs:
     - name: apt install dependency
       run: |
         sudo apt-get -y install valgrind
-        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev libmath-libm-perL
+        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev libmath-libm-perl
         gcc -o Implementation/src/Trignometry1.c -lm
     - name: make test
       run: |

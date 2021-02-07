@@ -1,5 +1,5 @@
-#ifndef __BINTODEC_H__
-#define __BINTODEC_H__
+#ifndef __BIN_TO_DEC_H__
+#define __BIN_TO_DEC_H__
 
 #include<stdio.h>
 

@@ -52,7 +52,7 @@ doc:
 
 test:$(BUILD)
 		gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
-		./$(TEST_OUTPUT)
+			./$(TEST_OUTPUT)
   
   
 clean:

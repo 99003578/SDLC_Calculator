@@ -1,6 +1,5 @@
 #include<average_operations.h>
 int average1(int x);
-int averagetest(int a[100]);
 int average()
 {
     int i,m,n;
@@ -74,7 +73,7 @@ int average1(signed int x)
     return 0;
 }
 
-int average_test(int n,float a){
+int average_test(int n,int a[]){
 
     int i;
     float sum=0,c;
@@ -82,7 +81,7 @@ int average_test(int n,float a){
         return 'error';
     }
     for(i=0;i<n;i++){
-      sum+=a[i];
+      sum = sum + a[i];
     }
     c=sum/n;
     return c;

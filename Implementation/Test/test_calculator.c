@@ -22,10 +22,9 @@ void test_divide_2(void);
 void test_factorial_1(void);
 void test_factorial_2(void);
 void test_factorial_3(void);
-void test_logarithmic_2(void);
 void test_logarithmic_1(void);
 void test_logarithmic_3(void);
-void test_bin_to_dec(void);
+
 void test_interest_1(void);
 void test_interest_2(void);
 void test_power_1(void);
@@ -56,10 +55,10 @@ int main(){
     RUN_TEST(test_factorial_1);
     RUN_TEST(test_factorial_2);
     RUN_TEST(test_factorial_3);
-    RUN_TEST(test_logarithmic_2);
+    RUN_TEST();
     RUN_TEST(test_logarithmic_1);
     RUN_TEST(test_logarithmic_3);
-    RUN_TEST(test_bin_to_dec);
+
     RUN_TEST(test_interest_1);
     RUN_TEST(test_interest_2);
     RUN_TEST(test_power_1);
@@ -83,7 +82,7 @@ void test_add_1(void){
 
 void test_add_2(void){
 
-    TEST_ASSERT_EQUAL(-20, add2(-30, 10, 1));
+    TEST_ASSERT_EQUAL(-20, basic_operation_test(-30, 10, 1));
 
     TEST_ASSERT_EQUAL(-20, basic_operation_test(-30, 10, 1));
 
@@ -122,11 +121,11 @@ void test_factorial_3(void){
 TEST_ASSERT_EQUAL("error! Factorial of negative number doesn't exist", factorial_test(-10));
 }
 
-void test_logarithmic_1(void){
-    TEST_ASSERT_EQUAL("Invalid", logarithmic_test(-8,2));
+void test_logarthmic_1(void){
+    TEST_ASSERT_EQUAL("Invalid", logarthmic_test(-8,2));
 }
 
-void test_logarithmic_2(void){
+void test_logarthmic_2(void){
     TEST_ASSERT_EQUAL("Invalid", logarithmic_test(8,-2));
 }
 
@@ -158,11 +157,6 @@ void test_interest_1(void){
 void test_interest_2(void){
     TEST_ASSERT_EQUAL(780, multiply2(5000, 2, 7.8));
 }
-
-void test_bin_to_dec(void){
-    TEST_ASSERT_EQUAL(7, bin_to_dec_test(111));
-}
-
 void test_exponential(void){
     TEST_ASSERT_EQUAL('Invalid Operand', exponential_test(0,2));
 }

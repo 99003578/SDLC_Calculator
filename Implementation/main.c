@@ -86,7 +86,7 @@ int main(){
                 goto front;
             }
             case 8:
-            r = logarthmic();
+            r = logarthmic1();
             if(r==0){
                 break;
             }
@@ -168,7 +168,7 @@ int main(){
             case 8:
             printf("enter base of log");
             scanf("%f", &r2);
-            r = logarthmic1(r, r2);
+            r = log_2(r, r2);
             if(r==0){
                 break;
             }

@@ -16,9 +16,11 @@ void test_add_1(void);
 void test_add_2(void);
 void test_subtract_1(void);
 void test_subtract_2(void);
-void test_multiply(void);
+void test_multiply_1(void);
+void test_multiply_2(void);
 void test_divide_1(void);
-void test_divide_2(void);
+
+
 void test_factorial_1(void);
 void test_factorial_2(void);
 void test_factorial_3(void);
@@ -33,7 +35,7 @@ void test_trignometry_1(void);
 void test_trignometry_2(void);
 void test_trignometry_3(void);
 void test_trignometry_4(void);
-void test_average(void);
+
 void test_exponential(void);
 
 
@@ -49,9 +51,10 @@ int main(){
     RUN_TEST(test_add_2);
     RUN_TEST(test_subtract_1);
     RUN_TEST(test_subtract_2);
-    RUN_TEST(test_multiply);
+    RUN_TEST(test_multiply_1);
+    RUN_TEST(test_multiply_2);
     RUN_TEST(test_divide_1);
-    RUN_TEST(test_divide_2);
+
     RUN_TEST(test_factorial_1);
     RUN_TEST(test_factorial_2);
     RUN_TEST(test_factorial_3);
@@ -66,7 +69,7 @@ int main(){
     RUN_TEST(test_trignometry_2);
     RUN_TEST(test_trignometry_3);
     RUN_TEST(test_trignometry_4);
-    RUN_TEST(test_average);
+  
     RUN_TEST(test_exponential);
    
    

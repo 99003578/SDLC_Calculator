@@ -9,6 +9,7 @@
 #include<logarthmic.h>
 #include<power.h>
 #include<trignometry1.h>
+#include<math.h>
 
 int main(){
     int k, j=3;

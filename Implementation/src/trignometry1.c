@@ -4,7 +4,7 @@
 
 
 
-int trignometry()
+int trignometry1()
 {
     float angle=0,trignometry;
     printf("enter the number");

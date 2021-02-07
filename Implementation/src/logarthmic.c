@@ -1,7 +1,7 @@
 #include<logarthmic.h>
 
 
-int logarthmic(){
+int logarthmic1(){
     int num, base,r2;
         printf("enter the number");
         scanf("%d",&num);

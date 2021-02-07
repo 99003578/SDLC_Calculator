@@ -21,7 +21,7 @@ int trignometry1()
 
     }
 }   
-int trig(float angle)  
+int trig(double angle)  
 {  
      
     
@@ -31,9 +31,9 @@ int trig(float angle)
   
    
   
-    printf("Sin(%f) = %f\n", angle, sinf(angle));  
-    printf("Cos(%f) = %f\n", angle, cosf(angle));  
-    printf("Tan(%f) = %f\n", angle, tanf(angle)); 
+    printf("Sin(%lf) = %f\n", angle, sin(angle));  
+    printf("Cos(%lf) = %f\n", angle, cos(angle));  
+    printf("Tan(%lf) = %f\n", angle, tan(angle)); 
     return 0;
 }
 int trignometry_test(float x)

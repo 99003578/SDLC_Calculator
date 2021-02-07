@@ -4,6 +4,6 @@
 #include <stdio.h>
 int logarthmic();
 int log2(int x, int y);
-int logN(int num,int base)
-int logarthmic_test(int num, int base)
+int logN(int num,int base);
+int logarthmic_test(int num, int base);
 #endif

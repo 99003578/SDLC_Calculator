@@ -1,7 +1,12 @@
+# SDLC_Calculator
+![cppcheck-action](https://github.com/99003512/SDLC_Calculator/workflows/cppcheck-action/badge.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/667b75dfb4d94930bf6ab1a3a5388e35)](https://app.codacy.com/gh/99003512/SDLC_Calculator?utm_source=github.com&utm_medium=referral&utm_content=99003512/SDLC_Calculator&utm_campaign=Badge_Grade)
+
+
 Team Summary
 | Name  |  PS No |  Features |  Issue Raised  |Issue Resolved   |
 |---|---|---|---|---|
-|  Amirthakatesa Sairaj R |   99003506 | Exponential function ,| 2  | 2  |
+|  Amirthakatesa Sairaj R |   99003506 | Exponential function,UMLs for exponential| 2  | 2  |
 | Thanu K V  | 99003507  |  Trignometric function,test plan | 1  |  1 |
 | Rajath P DP D  |  99003510 |  Simple intrest,SWOT analysis, Cost and aging|  2 |  2 |
 | Santhrupthi K  |  99003511 | Power function , Pros and Cons | 3  |  3 |
@@ -13,11 +18,11 @@ Team Summary
 
 
 Test Summary
-| Name  |  PS No |  Features |  Test cases  |Test cases solved  |
+| Name  |  PS No |  Features |  Test cases  |Test cases passed  |
 |---|---|---|---|---|
 |  Amirthakatesa Sairaj R |   99003506 | Exponential function | 2  | 2  |
 | Thanu K V  | 99003507  |  Trignometric function | 4 |  4 |
-| Rajath P DP D  |  99003510 |  Simple intrest |  1 |  1 |
+| Rajath P DP D  |  99003510 |  Simple intrest |  2 |  2 |
 | Santhrupthi K  |  99003511 | Power function  | 2  |  2 |
 | Karthik Manoj  | 99003512 | Basic arthimatic operations| 8| 8|
 |Phanidra Reddy Raghava Reddy|99003513|Conversions(bin to dec)| 2 |2|
@@ -25,7 +30,7 @@ Test Summary
 |Nisha M|99003515|Factorial of a number|3 |3|
 |Bokka Bhavya Harshika|99003517|Logarithmic function|3|3
 
-
+Knowledge Outcome:
 Visual Studio Code Best practices
 
 https://youtu.be/Y1fei1mzP7Q
@@ -41,6 +46,19 @@ List of extensions needed to be installed
             3.Doxygen documentation
             4.Test explorer UI
             5.Unity framework for C test explorer
+            
+Challenges Faced
 
+            1.System issues(crashing and Interfacing). 
+            2.Differentiation of high level and low level
+            3.Commiting to github,pull and push in git hub.
+            4.Converting pictures & tables into readme file.
+            5.Cpp check and Unity testing.
+            
+Challenges Solved
+
+            1. Installation of gitdesktop,VS code.
+            2. Solved github issues and got familiar with git.
+            3. Issues has been raised and Solved
             
             

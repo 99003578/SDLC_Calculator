@@ -121,7 +121,7 @@ int main(){
         switch(k){
             case 1:
             printf("enter the second number");
-            scanf("%d", &r2);
+            scanf("%f", &r2);
             r = basic_operation1(r, r2);
             if(r==0){
                 break;
@@ -139,7 +139,7 @@ int main(){
             }
             case 5:
             printf("Enter the exponential:");
-            scanf("%d", &r2);
+            scanf("%f", &r2);
             r = exponential1(r, r2);
             if(r==0){
                 break;
@@ -167,7 +167,7 @@ int main(){
             }
             case 8:
             printf("enter base of log");
-            scanf("%d", &r2);
+            scanf("%f", &r2);
             r = logarthmic1(r, r2);
             if(r==0){
                 break;

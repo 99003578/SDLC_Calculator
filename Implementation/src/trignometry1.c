@@ -1,4 +1,4 @@
-#include<trignometry1.h>
+#include<trignometry.h>
 #include<stdio.h>
 #include<math.h>
 
@@ -21,32 +21,32 @@ int trignometry()
 
     }
 }   
-int trig(int angle)  
+int trig(float angle)  
 {  
-    float angle, radian;  
-    const float PI = 3.14159;  
+    float angle;  
+    
   
     printf("Enter angle \n");  
     scanf("%f",&angle);  
   
-    radian = angle * (PI / 180.0);  
+   
   
-    printf("Sin(%f) = %f\n", angle, sin(radian));  
-    printf("Cos(%f) = %f\n", angle, cos(radian));  
-    printf("Tan(%f) = %f\n", angle, tan(radian)); 
+    printf("Sin(%f) = %f\n", angle, sin(angle));  
+    printf("Cos(%f) = %f\n", angle, cos(angle));  
+    printf("Tan(%f) = %f\n", angle, tan(angle)); 
     return 0;
 }
-int trignometry_test(int x)
+int trignometry_test(float x)
 {
-  float angle,radian; 
- const float PI = 3.14159;  
-  x = angle;
- radian = angle * (PI / 180.0);  
+  float angle; 
+
+  angle=x;
+
   
  if((x==0)||(x==90)){
         return 'error';
  }
  
- return tan(radian); 
+ return tan(angle); 
 
 }

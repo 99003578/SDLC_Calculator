@@ -14,9 +14,9 @@ int basic_operation(){
         int result;
         case 1:
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
      result = j + l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -28,9 +28,9 @@ int basic_operation(){
         break;
         case 2:
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
      result = j - l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -42,9 +42,9 @@ int basic_operation(){
         break;
         case 3:
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
      result = j * l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -58,14 +58,14 @@ int basic_operation(){
         back:
         if(l == 0){
             printf("Denominator cant be zero, please enter again");
-            scanf("%d", &l);
+            scanf("%f", &l);
             goto back;
         }
         else{
         printf("Please enter the numbers\n");
-        scanf("%d %d", &j, &l);
+        scanf("%f %f", &j, &l);
         result = j / l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d",result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -84,8 +84,8 @@ int basic_operation(){
 int basic_operation1(int x, int y){
     float j, l;
     int k;
-    x = j;
-    y = l;
+    j = x;
+    l = y;
     int m;
     printf("Choose your operation\n");
     printf("1 - Addition\n");
@@ -98,7 +98,7 @@ int basic_operation1(int x, int y){
         int result;
         case 1:
         result = j + l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d",result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -110,7 +110,7 @@ int basic_operation1(int x, int y){
         break;
         case 2:
         result = j - l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -122,7 +122,7 @@ int basic_operation1(int x, int y){
         break;
         case 3:
         result = j * l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){
@@ -136,12 +136,12 @@ int basic_operation1(int x, int y){
         back:
         if(l == 0){
             printf("Denominator cant be zero, please enter again");
-            scanf("%d", &l);
+            scanf("%f", &l);
             goto back;
         }
         else{
         result = j / l;
-        printf("Answer is %.0f", &result);
+        printf("Answer is %d", result);
         printf("Enter 1 if you want to continue else 2");
     scanf("%d", &m);
     if(m == 1){

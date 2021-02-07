@@ -1,4 +1,5 @@
 #include<logarthmic.h>
+#include<math.h>
 
 
 int logarthmic1(){

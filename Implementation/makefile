@@ -41,18 +41,18 @@ $(PROJECT_NAME):all
 .PHONY: run clean test  doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+		gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
   
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT)
+		./$(PROJECT_OUTPUT)
 	
 doc:
 	make -C ./documentation
 
 
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
+		gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+		./$(TEST_OUTPUT)
   
   
 clean:

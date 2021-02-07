@@ -23,7 +23,7 @@ int trignometry()
 }   
 int trig(float angle)  
 {  
-    float angle;  
+     
     
   
     printf("Enter angle \n");  

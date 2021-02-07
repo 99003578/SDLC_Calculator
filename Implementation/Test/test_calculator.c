@@ -19,12 +19,21 @@ void test_subtract_2(void);
 void test_multiply(void);
 void test_divide_1(void);
 void test_divide_2(void);
-void test_factorial(void);
-void test_logarithmic(void);
+void test_factorial_1(void);
+void test_factorial_2(void);
+void test_factorial_3(void);
+void test_logarithmic_2(void);
+void test_logarithmic_1(void);
+void test_logarithmic_3(void);
 void test_bin_to_dec(void);
-void test_interest(void);
-void test_power(void);
-void test_trignometry(void);
+void test_interest_1(void);
+void test_interest_2(void);
+void test_power_1(void);
+void test_power_2(void);
+void test_trignometry_1(void);
+void test_trignometry_2(void);
+void test_trignometry_3(void);
+void test_trignometry_4(void);
 void test_average(void);
 void test_exponential(void);
 
@@ -44,12 +53,21 @@ int main(){
     RUN_TEST(test_multiply);
     RUN_TEST(test_divide_1);
     RUN_TEST(test_divide_2);
-    RUN_TEST(test_factorial);
-    RUN_TEST(test_logarithmic);
+    RUN_TEST(test_factorial_1);
+    RUN_TEST(test_factorial_2);
+    RUN_TEST(test_factorial_3);
+    RUN_TEST(test_logarithmic_2);
+    RUN_TEST(test_logarithmic_1);
+    RUN_TEST(test_logarithmic_3);
     RUN_TEST(test_bin_to_dec);
-    RUN_TEST(test_interest);
-    RUN_TEST(test_power);
-    RUN_TEST(test_trignometry);
+    RUN_TEST(test_interest_1);
+    RUN_TEST(test_interest_2);
+    RUN_TEST(test_power_1);
+    RUN_TEST(test_power_2);
+    RUN_TEST(test_trignometry_1);
+    RUN_TEST(test_trignometry_2);
+    RUN_TEST(test_trignometry_3);
+    RUN_TEST(test_trignometry_4);
     RUN_TEST(test_average);
     RUN_TEST(test_exponential);
    
@@ -92,48 +110,62 @@ void test_divide_1(void){
     TEST_ASSERT_EQUAL(2, basic_operation_test(6, 2, 4));
 }
 
-void test_factorial(void){
+void test_factorial_1(void){
     TEST_ASSERT_EQUAL(120, factorial_test(5));
 }
 
-void test_factorial(void){
+void test_factorial_2(void){
     TEST_ASSERT_EQUAL(1, factorial_test(0));
 }
 
-void test_factorial(void){
+void test_factorial_3(void){
 TEST_ASSERT_EQUAL("error! Factorial of negative number doesn't exist", factorial_test(-10));
 }
 
-void test_logarithmic(void){
+void test_logarithmic_1(void){
     TEST_ASSERT_EQUAL("Invalid", logarithmic_test(-8,2));
 }
 
-void test_logarithmic(void){
+void test_logarithmic_2(void){
     TEST_ASSERT_EQUAL("Invalid", logarithmic_test(8,-2));
 }
 
-void test_logarithmic(void){
+void test_logarithmic_3(void){
     TEST_ASSERT_EQUAL("Invalid", logarithmic_test(8,-2));
 }
-void test_power(void){
+void test_power_1(void){
     TEST_ASSERT_EQUAL(8, calculate_power(3,1));
 }
-void test_power(void){
+void test_power_2(void){
     TEST_ASSERT_EQUAL(1, calculate_power(0,8));
 }
-void test_trignometry(void){
+void test_trignometry_1(void){
     TEST_ASSERT_EQUAL(0.707, trignometry_test(45));
 }
-void test_trignometry(void){
+void test_trignometry_2(void){
     TEST_ASSERT_EQUAL('error', trignometry_test(90));
 }
-void test_trignometry(void){
+void test_trignometry_3(void){
     TEST_ASSERT_EQUAL(0, trignometry_test(0));
 }
-void test_trignometry(void){
+void test_trignometry_4(void){
     TEST_ASSERT_EQUAL(0, trignometry_test(180));
 }
+void test_interest_1(void){
+    TEST_ASSERT_EQUAL(2250, interest_test(10000, 3, 7.5));
+}
 
+void test_interest_2(void){
+    TEST_ASSERT_EQUAL(780, multiply2(5000, 2, 7.8));
+}
+
+void test_bin_to_dec(void){
+    TEST_ASSERT_EQUAL(7, bin_to_dec_test(111));
+}
+
+void test_exponential(void){
+    TEST_ASSERT_EQUAL('Invalid Operand', exponential_test(0,2));
+}
 
 
 

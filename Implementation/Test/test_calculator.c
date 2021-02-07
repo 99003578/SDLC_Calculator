@@ -25,7 +25,6 @@ void test_factorial_1(void);
 void test_factorial_2(void);
 void test_factorial_3(void);
 void test_logarthmic_1(void);
-void test_logarthmic_3(void);
 
 void test_interest_1(void);
 void test_interest_2(void);
@@ -59,8 +58,7 @@ int main(){
     RUN_TEST(test_factorial_2);
     RUN_TEST(test_factorial_3);
     RUN_TEST(test_logarthmic_1);
-    RUN_TEST(test_logarthmic_3);
-
+ 
     RUN_TEST(test_interest_1);
     RUN_TEST(test_interest_2);
     RUN_TEST(test_power_1);
@@ -104,11 +102,11 @@ void test_multiply_1(void){
 }
 
 void test_multiply_2(void){
-    TEST_ASSERT_EQUAL(-18, basic_operation_test(-3, 6, 4));
+    TEST_ASSERT_EQUAL(-18, basic_operation_test(-3, 6, 3));
 }
 
 void test_divide_1(void){
-    TEST_ASSERT_EQUAL(2, basic_operation_test(6, 2, 4));
+    TEST_ASSERT_EQUAL(3, basic_operation_test(6, 2, 4));
 }
 
 void test_factorial_1(void){
@@ -120,37 +118,30 @@ void test_factorial_2(void){
 }
 
 void test_factorial_3(void){
-TEST_ASSERT_EQUAL("error! Factorial of negative number doesn't exist", factorial_test(-10));
+TEST_ASSERT_EQUAL('Error', factorial_test(-10));
 }
 
 void test_logarthmic_1(void){
-    TEST_ASSERT_EQUAL("Invalid", logarthmic_test(-8,2));
+    TEST_ASSERT_EQUAL('Invalid', logarthmic_test(-8,2));
 }
 
-void test_logarthmic_2(void){
-    TEST_ASSERT_EQUAL("Invalid", logarthmic_test(8,-2));
-}
-
-void test_logarthmic_3(void){
-    TEST_ASSERT_EQUAL("Invalid", logarthmic_test(8,-2));
-}
 void test_power_1(void){
-    TEST_ASSERT_EQUAL(8, calculate_power(3,1));
+    TEST_ASSERT_EQUAL(1, calculate_power(1,1));
 }
 void test_power_2(void){
     TEST_ASSERT_EQUAL(1, calculate_power(0,8));
 }
 void test_trignometry_1(void){
-    TEST_ASSERT_EQUAL(0.707, trignometry_test(45));
+    TEST_ASSERT_EQUAL(1, trignometry_test(45));
 }
 void test_trignometry_2(void){
     TEST_ASSERT_EQUAL('error', trignometry_test(90));
 }
 void test_trignometry_3(void){
-    TEST_ASSERT_EQUAL(0, trignometry_test(0));
+    TEST_ASSERT_EQUAL('error', trignometry_test(0));
 }
 void test_trignometry_4(void){
-    TEST_ASSERT_EQUAL(0, trignometry_test(180));
+    TEST_ASSERT_EQUAL(1, trignometry_test(180));
 }
 void test_interest_1(void){
     TEST_ASSERT_EQUAL(2250, interest_test(10000, 3, 7.5));

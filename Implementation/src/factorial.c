@@ -52,7 +52,7 @@ int fact2(int n)
 int factorial_test(int x)
 {int n =x;
     if(n<0){
-  return 'error! Factorial of negative number does not exist';
+  return 'Error';
     }
   else {
     int n2=fact2(n);

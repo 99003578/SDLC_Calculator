@@ -5,22 +5,25 @@ BUILD = build
 SRC = main.c\
 src/average.c\
 src/basic_operation.c\
+src/bin_to_dec.c\
 src/dec_to_bin.c\
 src/exponential.c\
 src/factorial.c\
 src/interest.c\
 src/logarthmic.c\
 src/power.c\
-
+src/trignometry1.c\
 
 TEST_SRC = src/average.c\
 src/basic_operation.c\
+src/bin_to_dec.c\
 src/dec_to_bin.c\
 src/exponential.c\
 src/factorial.c\
 src/interest.c\
 src/logarthmic.c\
 src/power.c\
+src/trignometry1.c\
 Test/test_calculator.c\
 unity/unity.c\
 

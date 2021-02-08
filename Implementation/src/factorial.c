@@ -52,7 +52,7 @@ int fact2(int n)
 int factorial_test(int x)
 {int n =x;
     if(n<0){
-  return -1;
+  return 'Error';
     }
   else {
     int n2=fact2(n);

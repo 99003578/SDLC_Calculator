@@ -73,7 +73,7 @@ int average1(signed int x)
     return 0;
 }
 
-int average_test(int n,int a){
+int average_test(int n,int *a){
 
     int i;
     float sum=0,c;

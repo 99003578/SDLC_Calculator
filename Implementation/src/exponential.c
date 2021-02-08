@@ -77,10 +77,10 @@ int exponential_test(float x, int y)
     exponential = y;
     
     if(basenumber == 0){
-        return 'Invalid Operand';
+        return -1;
     }   
     else if(basenumber < 0){
-        return 'Invalid Operand';
+        return -1;
     }
     else{
         while (exponential != 0)

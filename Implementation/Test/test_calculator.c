@@ -1,6 +1,6 @@
 #include<average_operations.h>
 #include<basic_operation.h>
-#include<bin_to_dec.h>
+//#include<bin_to_dec.h>
 #include<dec_to_bin.h>
 #include<exponential.h>
 #include<factorial.h>
@@ -118,11 +118,11 @@ void test_factorial_2(void){
 }
 
 void test_factorial_3(void){
-TEST_ASSERT_EQUAL('Error', factorial_test(-10));
+TEST_ASSERT_EQUAL(-1, factorial_test(-10));
 }
 
 void test_logarthmic_1(void){
-    TEST_ASSERT_EQUAL('Invalid', logarthmic_test(-8,2));
+    TEST_ASSERT_EQUAL(-1, logarthmic_test(-8,2));
 }
 
 void test_power_1(void){
@@ -151,7 +151,7 @@ void test_interest_2(void){
     TEST_ASSERT_EQUAL(780, interest_test(5000, 2, 7.8));
 }
 void test_exponential(void){
-    TEST_ASSERT_EQUAL('Invalid Operand', exponential_test(0,2));
+    TEST_ASSERT_EQUAL(-1, exponential_test(0,2));
 }
 
 

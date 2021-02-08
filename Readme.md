@@ -61,4 +61,5 @@ Challenges Solved
             2. Solved github issues and got familiar with git.
             3. Issues has been raised and Solved
             
+Git inspector: file:///home/ltts/Documents/GitHub/SDLC_Calculator/result.html            
             

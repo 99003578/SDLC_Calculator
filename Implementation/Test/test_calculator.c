@@ -154,7 +154,7 @@ void test_exponential(void){
     TEST_ASSERT_EQUAL('Invalid Operand', exponential_test(0,2));
 }
 void test_average(void){
-    int a[5]={5,6,5,3,2}
+    int a[5]={5,6,5,3,2};
     TEST_ASSERT_EQUAL(4.2,average_test(5,a[5]));
 }
 

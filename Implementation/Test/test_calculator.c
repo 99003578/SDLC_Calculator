@@ -142,7 +142,7 @@ void test_trignometry_3(void){
 }
 void test_trignometry_4(void){
     TEST_ASSERT_EQUAL(1, trignometry_test(180));*/
-}
+
 void test_interest_1(void){
     TEST_ASSERT_EQUAL(2250, interest_test(10000, 3, 7.5));
 }

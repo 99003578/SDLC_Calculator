@@ -155,6 +155,6 @@ void test_exponential(void){
 }
 void test_average(void){
     int a[5]={5,6,5,3,2}
-    TEST_ASSERT_EQUAL(66,interest_test(5,a));
+    TEST_ASSERT_EQUAL(4.2,interest_test(5,a));
 }
 

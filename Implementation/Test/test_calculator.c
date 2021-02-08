@@ -7,7 +7,7 @@
 #include<interest.h>
 #include<logarthmic.h>
 #include<power.h>
-#include<trignometry1.h>
+//#include<trignometry1.h>
 #include "unity.h"
 
 #define PROJECT_NAME "SDLC_Calculator"
@@ -30,10 +30,10 @@ void test_interest_1(void);
 void test_interest_2(void);
 void test_power_1(void);
 void test_power_2(void);
-void test_trignometry_1(void);
+/*void test_trignometry_1(void);
 void test_trignometry_2(void);
 void test_trignometry_3(void);
-void test_trignometry_4(void);
+void test_trignometry_4(void);*/
 
 void test_exponential(void);
 
@@ -63,10 +63,10 @@ int main(){
     RUN_TEST(test_interest_2);
     RUN_TEST(test_power_1);
     RUN_TEST(test_power_2);
-    RUN_TEST(test_trignometry_1);
+   /*RUN_TEST(test_trignometry_1);
     RUN_TEST(test_trignometry_2);
     RUN_TEST(test_trignometry_3);
-    RUN_TEST(test_trignometry_4);
+    RUN_TEST(test_trignometry_4);*/
   
     RUN_TEST(test_exponential);
    
@@ -131,7 +131,7 @@ void test_power_1(void){
 void test_power_2(void){
     TEST_ASSERT_EQUAL(1, calculate_power(0,8));
 }
-void test_trignometry_1(void){
+/*void test_trignometry_1(void){
     TEST_ASSERT_EQUAL(1, trignometry_test(45));
 }
 void test_trignometry_2(void){
@@ -141,7 +141,7 @@ void test_trignometry_3(void){
     TEST_ASSERT_EQUAL('error', trignometry_test(0));
 }
 void test_trignometry_4(void){
-    TEST_ASSERT_EQUAL(1, trignometry_test(180));
+    TEST_ASSERT_EQUAL(1, trignometry_test(180));*/
 }
 void test_interest_1(void){
     TEST_ASSERT_EQUAL(2250, interest_test(10000, 3, 7.5));

@@ -78,7 +78,7 @@ int average_test(int n,int a[]){
     int i;
     float sum=0,c;
     if((n>100)||(n<0)){
-        return 'error';
+        return -1;
     }
     for(i=0;i<n;i++){
       sum = sum + a[i];

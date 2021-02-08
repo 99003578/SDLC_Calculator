@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<average_operations.h>
 #include<basic_operation.h>
-#include<bin_to_dec.h>
+//#include<bin_to_dec.h>
 #include<dec_to_bin.h>
 #include<exponential.h>
 #include<factorial.h>
 #include<interest.h>
-#include<logarthmic.h>
+//#include<logarthmic.h>
 #include<power.h>
 //#include<trignometry1.h>
 #include<math.h>
@@ -46,14 +46,14 @@ int main(){
             else{
                 goto front;
             }
-            case 3:
+            /*case 3:
             r = bin_to_dec();
            if(r==0){
                 break;
             }
             else{
                 goto front;
-            }
+            }*/
             case 4:
             r = dec_to_bin();
             if(r==0){

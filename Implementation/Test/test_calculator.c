@@ -19,7 +19,7 @@ void test_subtract_2(void);
 void test_multiply_1(void);
 void test_multiply_2(void);
 void test_divide_1(void);
-
+void test_average(void);
 
 void test_factorial_1(void);
 void test_factorial_2(void);
@@ -153,8 +153,10 @@ void test_interest_2(void){
 void test_exponential(void){
     TEST_ASSERT_EQUAL(-1, exponential_test(0,2));
 }
-
-
+void test_average(void){
+    int a[5]={5,6,5,3,2}
+    TEST_ASSERT_EQUAL(66interest_test(5,a));
+}
 
 
 

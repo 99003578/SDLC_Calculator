@@ -6,7 +6,7 @@
 #include<exponential.h>
 #include<factorial.h>
 #include<interest.h>
-//#include<logarthmic.h>
+#include<logarthmic.h>
 #include<power.h>
 //#include<trignometry1.h>
 #include<math.h>

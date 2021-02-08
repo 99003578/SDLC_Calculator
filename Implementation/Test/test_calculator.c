@@ -25,7 +25,7 @@ void test_factorial_1(void);
 void test_factorial_2(void);
 void test_factorial_3(void);
 void test_logarthmic_1(void);
-
+void test_average(void);
 void test_interest_1(void);
 void test_interest_2(void);
 //void test_power_1(void);
@@ -58,7 +58,7 @@ int main(){
     RUN_TEST(test_factorial_2);
     RUN_TEST(test_factorial_3);
     RUN_TEST(test_logarthmic_1);
- 
+    RUN_TEST(test_average);
     RUN_TEST(test_interest_1);
     RUN_TEST(test_interest_2);
    // RUN_TEST(test_power_1);
@@ -153,57 +153,8 @@ void test_interest_2(void){
 void test_exponential(void){
     TEST_ASSERT_EQUAL('Invalid Operand', exponential_test(0,2));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+void test_average(void){
+    int a[5]={5,6,5,3,2}
+    TEST_ASSERT_EQUAL(66,interest_test(5,a));
+}
 

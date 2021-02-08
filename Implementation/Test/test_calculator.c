@@ -6,7 +6,7 @@
 #include<factorial.h>
 #include<interest.h>
 #include<logarthmic.h>
-#include<power.h>
+//#include<power.h>
 //#include<trignometry1.h>
 #include "unity.h"
 
@@ -28,8 +28,8 @@ void test_logarthmic_1(void);
 
 void test_interest_1(void);
 void test_interest_2(void);
-void test_power_1(void);
-void test_power_2(void);
+//void test_power_1(void);
+//void test_power_2(void);
 /*void test_trignometry_1(void);
 void test_trignometry_2(void);
 void test_trignometry_3(void);
@@ -61,8 +61,8 @@ int main(){
  
     RUN_TEST(test_interest_1);
     RUN_TEST(test_interest_2);
-    RUN_TEST(test_power_1);
-    RUN_TEST(test_power_2);
+   // RUN_TEST(test_power_1);
+   // RUN_TEST(test_power_2);
    /*RUN_TEST(test_trignometry_1);
     RUN_TEST(test_trignometry_2);
     RUN_TEST(test_trignometry_3);
@@ -125,12 +125,12 @@ void test_logarthmic_1(void){
     TEST_ASSERT_EQUAL('Invalid', logarthmic_test(-8,2));
 }
 
-void test_power_1(void){
+/*void test_power_1(void){
     TEST_ASSERT_EQUAL(1, calculate_power(1,1));
 }
 void test_power_2(void){
     TEST_ASSERT_EQUAL(1, calculate_power(0,8));
-}
+}*/
 /*void test_trignometry_1(void){
     TEST_ASSERT_EQUAL(1, trignometry_test(45));
 }

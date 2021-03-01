@@ -1,8 +1,8 @@
 # Low Level Test Plan
 | TEST_ID | DESCRIPTION                   | INPUT                   | ACTUAL OUTPUT | EXPECTED OUTPUT |
 |---------|-------------------------------|-------------------------|---------------|-----------------|
-| TL_01	  | Addition of two numbers       | A=20,B=5                 | C=25          |                 |
-|         |                               | A=-30,B=10               | -20         |                |
+| TL_01	  | Addition of two numbers       | A=20,B=5                 | C=25          |               |
+|         |                               | A=-30,B=10               | C=-20         |             |
 | TL_02   | Subtraction of two numbers    | A=20,B=5                 | C=15          |              |
 |         |                               | A=2,B=5                 | C=-3          |               |
 |         |                               | A=-30,B=10              | C=-40          |               |

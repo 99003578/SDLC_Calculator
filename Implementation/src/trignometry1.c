@@ -3,7 +3,7 @@
 #include<math.h>
 
 
-
+/*
 int trignometry1()
 {
     float angle=0,trignometry;
@@ -50,3 +50,4 @@ int trignometry_test(float x)
  return tan(angle); 
 
 }
+/*

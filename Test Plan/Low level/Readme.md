@@ -10,7 +10,7 @@
 | TL_03   | Multiplication of two numbers | A=2,B=3                 | C=6           |               |
 |         |                               | A=-3,B=-6                | C=-18          |               |
 | TL_04   | Division of two numbers       | A=6,B=3                 | C=2           |                  |
-|         |                               | A=0,B=2                 | 0         |                 |
+|         |                               | A=2,B=0                 | Error         |                 |
 | TL_05   | Factorial of two numbers      | A=5                     | C=120         |                 |
 |         |                               | A=-3                    | Error         |                 |
 |         |                               | A=0                     | C=1           |                 |

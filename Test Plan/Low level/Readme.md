@@ -2,14 +2,14 @@
 | TEST_ID | DESCRIPTION                   | INPUT                   | ACTUAL OUTPUT | EXPECTED OUTPUT |
 |---------|-------------------------------|-------------------------|---------------|-----------------|
 | TL_01	  | Addition of two numbers       | A=20,B=5                 | C=25          |                 |
-|         |                               | A=-30,B=10               | -20         |                 |
-| TL_02   | Subtraction of two numbers    | A=20,B=5                 | C=15          |                 |
-|         |                               | A=2,B=5                 | C=-3          |                 |
-|         |                               | A=-30,B=10              | C=-40          |                 |
-|         |                               | A=-2,B=6                | C=-8          |                 |
-| TL_03   | Multiplication of two numbers | A=2,B=3                 | C=6           |                 |
-|         |                               | A=-3,B=-6                | C=-18          |                 |
-| TL_04   | Division of two numbers       | A=6,B=3                 | C=2           |                 |
+|         |                               | A=-30,B=10               | -20         |                |
+| TL_02   | Subtraction of two numbers    | A=20,B=5                 | C=15          |              |
+|         |                               | A=2,B=5                 | C=-3          |               |
+|         |                               | A=-30,B=10              | C=-40          |               |
+|         |                               | A=-2,B=6                | C=-8          |             |
+| TL_03   | Multiplication of two numbers | A=2,B=3                 | C=6           |               |
+|         |                               | A=-3,B=-6                | C=-18          |               |
+| TL_04   | Division of two numbers       | A=6,B=3                 | C=2           |                  |
 |         |                               | A=2,B=0                 | Error         |                 |
 | TL_05   | Factorial of two numbers      | A=5                     | C=120         |                 |
 |         |                               | A=-3                    | Error         |                 |

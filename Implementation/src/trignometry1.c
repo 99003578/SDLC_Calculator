@@ -4,7 +4,7 @@
 
 
 
-/*int trignometry1()
+int trignometry1()
 {
     float angle=0,trignometry;
     printf("enter the number");
@@ -50,4 +50,3 @@ int trignometry_test(float x)
  return tan(angle); 
 
 }
-*/

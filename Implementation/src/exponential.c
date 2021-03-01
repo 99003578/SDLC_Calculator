@@ -16,11 +16,23 @@ int exponential()
     
     printf("Enter the Exponential : ");
     scanf("%d", &exponential);
-
+    if(exponential>0)
+    {
     while (exponential != 0)
     {
         result *= basenumber;
         --exponential;
+    }
+    }
+    else
+    {
+        while (exponential< 0)
+
+    {
+            result= result/basenumber;
+            exponential++;
+        }
+
     }
     printf("If you want to print the result press 1 or else press 2 : ");
     scanf("%d", &n);

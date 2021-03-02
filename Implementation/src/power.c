@@ -6,6 +6,10 @@ int power()
     float base_num,exponential_num;
     scanf("%f%f",&base_num,&exponential_num);
     result = calculate_power(base_num,exponential_num);
+    if(base_num==0 && exponential_num==0)
+    {
+        printf("does not exist");
+    }
     printf("enter 1 to continue or 2 to end");
     int k;
     scanf("%d", &k);

@@ -173,7 +173,7 @@ int basic_operation1(int x, int y){
         back:
         if(l == 0){
             
-            return 'Denominator cant be zero, please enter again';
+            return 0;
             goto back;
         }
         else{

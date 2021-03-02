@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 #include<math.h>
-/*int bin_to_dec()
+int bin_to_dec()
 {
     int binnum, decnum=0,m;
     printf("Enter any binary number: ");
@@ -36,4 +36,3 @@
 }
 
 
-*/
